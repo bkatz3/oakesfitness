@@ -96,6 +96,10 @@ body {
     color: var(--accent-primary);
 }
 
+.mobile-only {
+    display: none;
+}
+
 .nav-phones {
     display: flex;
     gap: 1.5rem;
@@ -715,6 +719,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .mobile-only {
+        display: flex;
+    }
+
     .nav-links {
         position: fixed;
         top: 70px;
