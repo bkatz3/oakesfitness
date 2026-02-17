@@ -103,6 +103,23 @@ body {
 
 .phone-link {
     font-size: 0.9rem !important;
+    cursor: pointer;
+    position: relative;
+}
+
+.phone-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--accent-primary);
+    transition: width 0.3s ease;
+}
+
+.phone-link:hover::after {
+    width: 100%;
 }
 
 .cta-button {
@@ -161,6 +178,13 @@ body {
     padding: 2rem;
 }
 
+.hero-logo {
+    width: clamp(150px, 25vw, 250px);
+    height: auto;
+    margin: 0 auto 1rem;
+    filter: drop-shadow(0 8px 30px rgba(0, 0, 0, 0.8));
+}
+
 .hero-title {
     font-size: clamp(2.5rem, 8vw, 5rem);
     font-weight: 900;
@@ -211,6 +235,10 @@ body {
 
 .delay-2 {
     animation-delay: 0.4s;
+}
+
+.delay-3 {
+    animation-delay: 0.6s;
 }
 
 @keyframes fadeInUp {
@@ -811,6 +839,11 @@ body {
 @media (max-width: 480px) {
     .nav-container {
         padding: 1rem;
+    }
+
+    .hero-logo {
+        width: clamp(120px, 40vw, 200px);
+        margin-bottom: 0.75rem;
     }
 
     .hero-content {
