@@ -1,0 +1,27 @@
+# Oakes Fitness
+
+> State of the art personal training studios in Westford & Concord, MA. Founded by Mike Oakes with 25+ years of coaching experience. Oakes Fitness is built on the belief that "movement is medicine" — intentional, intelligent training that improves how you move, how you feel, and how you live.
+
+Oakes Fitness offers one-on-one personal training, women's group classes, and youth strength & conditioning for athletes ages 11-16. With two convenient locations in the Greater Boston area, the studio serves clients from Concord, Westford, Bedford, Carlisle, Littleton, Acton, and surrounding communities.
+
+## Pages
+
+- [Home](https://oakesfitness.com/): Overview of services, client testimonials, and studio information
+- [Contact / Free Consultation](https://oakesfitness.com/contact.html): Contact form to get started with a free consultation
+
+## Services
+
+- **One on One Coaching**: Personalized 45-minute sessions in private training spaces. Customized workout programs with progress tracking and flexible scheduling.
+- **Women's Total Body Conditioning**: High-energy group training sessions focused on full-body strength and conditioning. All fitness levels welcome.
+- **Youth Strength & Conditioning**: Safe, age-appropriate training for young athletes ages 11-16. Focus on proper form, athletic foundation, and injury prevention.
+- **Coaching for Every Goal**: Weight loss, strength building, athletic performance, post-rehab recovery, and general health and wellness.
+
+## Locations
+
+- **Westford Studio**: 334 Littleton Road, Westford, MA 01886 | Phone: 978-277-6300
+- **Concord Studio**: 97a Thoreau Street, Concord, MA 01742 | Phone: 978-680-5069
+
+## Contact
+
+- Email: oakesfitness1@gmail.com
+- Website: https://oakesfitness.com
