@@ -392,16 +392,33 @@ def update_blog_listing(cards: str) -> None:
     # Also keep root blog.html in sync
     content = BLOG_HTML.read_text(encoding="utf-8")
     open_tag = '<div class="blog-column">'
-    close_tag = "</div>"
 
     start = content.find(open_tag)
     if start == -1:
         raise RuntimeError("blog-column div not found in blog.html")
 
     inner_start = start + len(open_tag)
-    inner_end = content.find(close_tag, inner_start)
+
+    # Find the *matching* closing </div> by tracking nesting depth.
+    depth = 1
+    pos = inner_start
+    inner_end = -1
+    while pos < len(content) and depth > 0:
+        next_open = content.find("<div", pos)
+        next_close = content.find("</div>", pos)
+        if next_close == -1:
+            break
+        if next_open != -1 and next_open < next_close:
+            depth += 1
+            pos = next_open + 4
+        else:
+            depth -= 1
+            if depth == 0:
+                inner_end = next_close
+            else:
+                pos = next_close + 6
     if inner_end == -1:
-        raise RuntimeError("Closing </div> for blog-column not found in blog.html")
+        raise RuntimeError("Matching closing </div> for blog-column not found in blog.html")
 
     new_content = (
         content[:inner_start]
