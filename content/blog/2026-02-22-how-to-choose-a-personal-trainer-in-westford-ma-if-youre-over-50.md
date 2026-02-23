@@ -11,7 +11,7 @@ keywords:
   - "fitness trainer Westford MA"
   - "personal training over 50"
   - "how to choose personal trainer"
-draft: true
+draft: false
 ---
 
 **Tier:** 1 - Local/Commercial
