@@ -416,31 +416,46 @@ def main():
         "---",
     ]
 
-    public_body = extract_public_body(output_text)
-    out_text = "\n".join(frontmatter) + "\n\n" + public_body + "\n"
-    out_path.write_text(out_text, encoding="utf-8")
-    log("info", f"Wrote post to {out_path}")
+    def write_outputs():
+        public_body = extract_public_body(output_text)
+        out_text = "\n".join(frontmatter) + "\n\n" + public_body + "\n"
+        out_path.write_text(out_text, encoding="utf-8")
+        log("info", f"Wrote post to {out_path}")
 
-    # Update TOPIC_IDEAS.md
-    new_line = f"{topic.number}. ✅ Written ({today}) {topic.title}\n"
-    lines[topic.line_index] = new_line
-    topic_path.write_text("".join(lines), encoding="utf-8")
-    log("info", f"Updated {topic_path} for topic #{topic.number}")
+        # Update TOPIC_IDEAS.md
+        new_line = f"{topic.number}. ✅ Written ({today}) {topic.title}\n"
+        lines[topic.line_index] = new_line
+        topic_path.write_text("".join(lines), encoding="utf-8")
+        log("info", f"Updated {topic_path} for topic #{topic.number}")
 
-    llms_path = repo_root / "llms.txt"
-    llms_updated = update_llms_file(llms_path, title, slug)
+        llms_path = repo_root / "llms.txt"
+        llms_updated = update_llms_file(llms_path, title, slug)
+        return llms_path, llms_updated
 
     # Git + PR automation
+    git_automation = True
     if dirty_tree and allow_dirty_tree:
         log("info", "Skipping git automation because working tree is dirty.")
-        return
+        git_automation = False
 
     try:
+        if not git_automation:
+            write_outputs()
+            return
+
         branch_name = f"blog/{today}-{slug}"
 
-        run_cmd(["git", "checkout", "main"], cwd=repo_root)
+        current_branch = run_cmd(
+            ["git", "rev-parse", "--abbrev-ref", "HEAD"],
+            cwd=repo_root,
+        ).stdout.strip()
+        if current_branch != "main":
+            run_cmd(["git", "checkout", "main"], cwd=repo_root)
         run_cmd(["git", "pull", "origin", "main"], cwd=repo_root)
         run_cmd(["git", "checkout", "-b", branch_name], cwd=repo_root)
+
+        llms_path, llms_updated = write_outputs()
+
         run_cmd(["git", "add", str(out_path)], cwd=repo_root)
         run_cmd(["git", "add", str(topic_path)], cwd=repo_root)
         if llms_updated:

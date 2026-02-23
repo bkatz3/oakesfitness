@@ -67,7 +67,7 @@ These build authority on fitness topics for the 50+ population. No forced geogra
 
 ### Weight Loss and Body Composition
 
-35. 🟢 Why Losing Weight After 50 Is Different (and What Actually Works)
+35. ✅ Written (2026-02-22) Why Losing Weight After 50 Is Different (and What Actually Works)
 36. 🟢 Why the Scale Isn't Moving Even Though You're Working Out After 50
 37. 🟢 How to Lose Belly Fat After 50 (What the Research Actually Says)
 38. 🟢 Why Crash Diets Are Especially Dangerous After 50
