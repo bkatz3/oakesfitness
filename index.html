@@ -28,10 +28,114 @@
     <meta name="application-name" content="Oakes Fitness">
     <meta name="theme-color" content="#2B8BFF">
 
+    <link rel="canonical" href="https://oakesfitness.com/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="preload" as="image" href="images/oakes_logo_no_bg.png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://oakesfitness.com/#website",
+          "name": "Oakes Fitness",
+          "url": "https://oakesfitness.com"
+        },
+        {
+          "@type": ["LocalBusiness", "SportsActivityLocation"],
+          "@id": "https://oakesfitness.com/#westford",
+          "name": "Oakes Fitness — Westford",
+          "url": "https://oakesfitness.com/",
+          "telephone": "+1-978-277-6300",
+          "image": "https://oakesfitness.com/images/oakes_logo.jpg",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "334 Littleton Road",
+            "addressLocality": "Westford",
+            "addressRegion": "MA",
+            "postalCode": "01886",
+            "addressCountry": "US"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.5704,
+            "longitude": -71.4380
+          }
+        },
+        {
+          "@type": ["LocalBusiness", "SportsActivityLocation"],
+          "@id": "https://oakesfitness.com/#concord",
+          "name": "Oakes Fitness — Concord",
+          "url": "https://oakesfitness.com/",
+          "telephone": "+1-978-680-5069",
+          "image": "https://oakesfitness.com/images/oakes_logo.jpg",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "97a Thoreau Street",
+            "addressLocality": "Concord",
+            "addressRegion": "MA",
+            "postalCode": "01742",
+            "addressCountry": "US"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 42.4604,
+            "longitude": -71.3617
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://oakesfitness.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What services does Oakes Fitness offer?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oakes Fitness offers one-on-one personal training (45-minute private sessions), Women's Total Body Conditioning group classes, and Youth Strength & Conditioning for athletes ages 11–16."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where is Oakes Fitness located?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oakes Fitness has two studios: 334 Littleton Road in Westford, MA and 97a Thoreau Street in Concord, MA. We serve Bedford, Carlisle, Littleton, Acton, and surrounding communities."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I get started at Oakes Fitness?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Request a free consultation via the contact form or call either studio directly. No commitment required for the initial consultation."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Oakes Fitness suitable for beginners?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Training is tailored to each individual's goals and fitness level. All fitness levels are welcome."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What makes Oakes Fitness different from other gyms?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "25+ years of coaching experience, fully private training spaces, and programs built around your life — not the other way around."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
@@ -59,6 +163,7 @@
         </div>
     </nav>
 
+    <main>
     <!-- Hero Section -->
     <section class="hero" id="hero">
         <div class="hero-content">
@@ -462,6 +567,35 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <h2 class="section-title reveal">Frequently Asked Questions</h2>
+            <div class="faq-list reveal">
+                <details class="faq-item">
+                    <summary class="faq-question">What services does Oakes Fitness offer?</summary>
+                    <p class="faq-answer">One-on-one personal training (45-minute private sessions), Women's Total Body Conditioning group classes, and Youth Strength &amp; Conditioning for athletes ages 11–16.</p>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">Where is Oakes Fitness located?</summary>
+                    <p class="faq-answer">Two studios: 334 Littleton Road in Westford, MA and 97a Thoreau Street in Concord, MA. Serving Bedford, Carlisle, Littleton, Acton, and surrounding communities.</p>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">How do I get started?</summary>
+                    <p class="faq-answer">Request a free consultation via the contact form or call either studio directly. No commitment required for the initial consultation.</p>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">Is Oakes Fitness suitable for beginners?</summary>
+                    <p class="faq-answer">Yes. Training is tailored to each individual's goals and fitness level. All fitness levels are welcome.</p>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">What makes Oakes Fitness different?</summary>
+                    <p class="faq-answer">25+ years of coaching experience, fully private training spaces, and programs built around your life — not the other way around.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact / CTA Section -->
     <section class="contact" id="contact">
         <div class="container">
@@ -472,6 +606,8 @@
             </div>
         </div>
     </section>
+
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
