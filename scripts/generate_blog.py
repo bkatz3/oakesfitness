@@ -454,10 +454,16 @@ def main():
 
         llms_path, llms_updated = write_outputs()
 
+        # Build HTML locally so Vercel can serve static files without a build step
+        log("info", "Running build_blog.py to generate HTML...")
+        run_cmd([sys.executable, str(repo_root / "scripts" / "build_blog.py")], cwd=repo_root)
+
         run_cmd(["git", "add", str(out_path)], cwd=repo_root)
         run_cmd(["git", "add", str(topic_path)], cwd=repo_root)
         if llms_updated:
             run_cmd(["git", "add", str(llms_path)], cwd=repo_root)
+        run_cmd(["git", "add", str(blog_dir)], cwd=repo_root)
+        run_cmd(["git", "add", str(repo_root / "blog.html")], cwd=repo_root)
         run_cmd(["git", "commit", "-m", f"blog: Add post - {title}"], cwd=repo_root)
         run_cmd(["git", "push", "origin", branch_name], cwd=repo_root)
 
