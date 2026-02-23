@@ -361,28 +361,6 @@ Write with the authority of an experienced personal trainer who specializes in t
 ## Deliverable Format
 
 ```
-**Tier:** [1 - Local/Commercial] or [2 - Topical Authority]
-**Source:** [Google PAA / Reddit thread URL / Facebook group / Nextdoor / Seasonal angle]
-
-**Angle Statement:**
-- Misconception/mistake being corrected: [X]
-- Why this is different for 50+: [X]
-- What the reader gets here that they won't get elsewhere: [X]
-
-**Why this topic:** [1-2 sentences on selection rationale]
-
----
-
-**Meta Description:** [under 160 characters; Tier 1 includes geo reference, Tier 2 is topic-focused]
-
-**Primary Keyword:** [keyword]
-
-**Secondary Keywords:** [keyword 1], [keyword 2], [keyword 3]
-
-**Title Tag:** [if different from post title]
-
----
-
 # [Post Title]
 
 *By The Oakes Fitness Team*
