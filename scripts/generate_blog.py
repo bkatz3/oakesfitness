@@ -410,9 +410,7 @@ def main():
         f"title: \"{title}\"",
         f"date: {today}",
         "author: \"The Oakes Fitness Team\"",
-        f"tier: {topic.tier.replace('T', '')}",
         f"category: \"{topic.category}\"",
-        "draft: true",
         "---",
     ]
 
