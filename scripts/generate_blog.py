@@ -176,6 +176,7 @@ def parse_model_output(output: str):
     primary_kw = None
     secondary_kws = []
     title = None
+    angle_block = None
 
     m = re.search(r"\*\*Meta Description:\*\*\s*(.+)", output)
     if m:
@@ -193,7 +194,24 @@ def parse_model_output(output: str):
     if m:
         title = m.group(1).strip()
 
-    return meta_desc, primary_kw, secondary_kws, title
+    angle_match = re.search(
+        r"\*\*Angle Statement:\*\*\s*(.*?)\n---\n",
+        output,
+        flags=re.DOTALL,
+    )
+    if angle_match:
+        angle_block = angle_match.group(0).strip()
+
+    return meta_desc, primary_kw, secondary_kws, title, angle_block
+
+
+def strip_angle_statement(output: str) -> str:
+    return re.sub(
+        r"\*\*Angle Statement:\*\*.*?\n---\n",
+        "",
+        output,
+        flags=re.DOTALL,
+    ).strip()
 
 
 def scan_existing_posts(blog_dir: Path):
@@ -304,7 +322,7 @@ def main():
         log("error", "Empty model response.")
         sys.exit(1)
 
-    meta_desc, primary_kw, secondary_kws, title = parse_model_output(output_text)
+    meta_desc, primary_kw, secondary_kws, title, angle_block = parse_model_output(output_text)
 
     if not title or not meta_desc or not primary_kw:
         debug_path = repo_root / "scripts" / "last_model_output.txt"
@@ -336,7 +354,8 @@ def main():
     frontmatter.append("draft: true")
     frontmatter.append("---")
 
-    out_text = "\n".join(frontmatter) + "\n\n" + output_text.strip() + "\n"
+    cleaned_output = strip_angle_statement(output_text)
+    out_text = "\n".join(frontmatter) + "\n\n" + cleaned_output + "\n"
     out_path.write_text(out_text, encoding="utf-8")
     log("info", f"Wrote post to {out_path}")
 
@@ -379,6 +398,14 @@ def main():
                 "--draft",
             ], cwd=repo_root)
             log("info", "Created draft PR via gh.")
+
+            if angle_block:
+                run_cmd([
+                    "gh", "pr", "comment",
+                    "--repo", gh_repo,
+                    "--body", angle_block,
+                ], cwd=repo_root)
+                log("info", "Posted angle statement as PR comment.")
         else:
             log("info", "Skipping PR creation (GH_REPO not set or gh not available).")
 
