@@ -16,7 +16,7 @@ These target high-intent local searches. Every title includes a geographic modif
 2. 🟢 Best Gyms in Westford MA for Strength Training
 3. 🟢 Personal Training vs. Gym Membership: What's Actually Worth It in the Westford Area
 4. 🟢 What to Look for in a Personal Trainer if You Have Bad Knees or a Bad Back
-5. 🟢 How Much Does a Personal Trainer Cost in Westford MA in 2026?
+5. ✅ Written (2026-02-22) How Much Does a Personal Trainer Cost in Westford MA in 2026?
 6. 🟢 Group Training vs. One-on-One Personal Training in Westford: Which Gets Better Results?
 7. 🟢 Why Most Gyms in Westford MA Aren't Built for Adults Who Actually Want Results
 
@@ -55,7 +55,7 @@ These build authority on fitness topics for the 50+ population. No forced geogra
 ### Strength Training Fundamentals
 
 25. ✅ Written (2026-02-22) How Often Should You Strength Train After 50?
-26. 🟢 How to Build Muscle After 50 Without Wrecking Your Joints
+26. ✅ Written (2026-02-22) How to Build Muscle After 50 Without Wrecking Your Joints
 27. 🟢 Is It Too Late to Start Lifting Weights at 55 or 60?
 28. 🟢 How Much Weight Should You Lift After 50? A Simple Guide to Loading
 29. 🟢 Why Progressive Overload Matters More After 50 (and How to Do It Safely)
