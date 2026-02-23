@@ -1,3 +1,7 @@
 .env
 .venv/
 scripts/last_model_output.txt
+
+# Generated HTML (built from blog/*.md by scripts/build_blog.py)
+blog/*.html
+blog.html

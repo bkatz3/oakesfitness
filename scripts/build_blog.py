@@ -14,7 +14,7 @@ try:
 except ImportError:
     sys.exit("Error: pyyaml is required. Run: pip install pyyaml")
 
-CONTENT_DIR = Path("content/blog")
+CONTENT_DIR = Path("blog")
 BLOG_DIR = Path("blog")
 BLOG_HTML = Path("blog.html")
 
@@ -384,50 +384,15 @@ def listing_page_html(cards: str) -> str:
 
 
 def update_blog_listing(cards: str) -> None:
-    # Write blog/index.html (serves at /blog/ locally and /blog on Vercel)
+    html = listing_page_html(cards)
+
+    # Write blog/index.html (serves at /blog/ on Vercel)
     index_path = BLOG_DIR / "index.html"
-    index_path.write_text(listing_page_html(cards), encoding="utf-8")
+    index_path.write_text(html, encoding="utf-8")
     print(f"  generated: {index_path}")
 
-    # Also keep root blog.html in sync
-    content = BLOG_HTML.read_text(encoding="utf-8")
-    open_tag = '<div class="blog-column">'
-
-    start = content.find(open_tag)
-    if start == -1:
-        raise RuntimeError("blog-column div not found in blog.html")
-
-    inner_start = start + len(open_tag)
-
-    # Find the *matching* closing </div> by tracking nesting depth.
-    depth = 1
-    pos = inner_start
-    inner_end = -1
-    while pos < len(content) and depth > 0:
-        next_open = content.find("<div", pos)
-        next_close = content.find("</div>", pos)
-        if next_close == -1:
-            break
-        if next_open != -1 and next_open < next_close:
-            depth += 1
-            pos = next_open + 4
-        else:
-            depth -= 1
-            if depth == 0:
-                inner_end = next_close
-            else:
-                pos = next_close + 6
-    if inner_end == -1:
-        raise RuntimeError("Matching closing </div> for blog-column not found in blog.html")
-
-    new_content = (
-        content[:inner_start]
-        + "\n"
-        + cards
-        + "\n            "
-        + content[inner_end:]
-    )
-    BLOG_HTML.write_text(new_content, encoding="utf-8")
+    # Write root blog.html (same content, alternate entry point)
+    BLOG_HTML.write_text(html, encoding="utf-8")
 
 
 # ---------------------------------------------------------------------------

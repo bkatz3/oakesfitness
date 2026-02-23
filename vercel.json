@@ -1,4 +1,6 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "buildCommand": "pip install pyyaml && python scripts/build_blog.py",
+  "outputDirectory": "."
 }

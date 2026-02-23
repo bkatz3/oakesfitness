@@ -4,7 +4,7 @@ date: 2026-02-23
 author: "The Oakes Fitness Team"
 tier: 2
 category: "Strength Training Fundamentals"
-draft: true
+draft: false
 ---
 
 # How to Build Muscle After 50 Without Wrecking Your Joints
