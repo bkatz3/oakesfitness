@@ -178,15 +178,15 @@ def parse_model_output(output: str):
     title = None
     angle_block = None
 
-    m = re.search(r"\*\*Meta Description:\*\*\s*(.+)", output)
+    m = re.search(r"\*\*Meta Description:\*\*\s*(.+)", output, flags=re.IGNORECASE)
     if m:
         meta_desc = m.group(1).strip().strip("[]")
 
-    m = re.search(r"\*\*Primary Keyword:\*\*\s*(.+)", output)
+    m = re.search(r"\*\*Primary Keyword:\*\*\s*(.+)", output, flags=re.IGNORECASE)
     if m:
         primary_kw = m.group(1).strip().strip("[]")
 
-    m = re.search(r"\*\*Secondary Keywords:\*\*\s*(.+)", output)
+    m = re.search(r"\*\*Secondary Keywords:\*\*\s*(.+)", output, flags=re.IGNORECASE)
     if m:
         secondary_kws = [k.strip().strip('"') for k in m.group(1).split(",") if k.strip()]
 
@@ -197,7 +197,7 @@ def parse_model_output(output: str):
     angle_match = re.search(
         r"\*\*Angle Statement:\*\*\s*(.*?)\n---\n",
         output,
-        flags=re.DOTALL,
+        flags=re.DOTALL | re.IGNORECASE,
     )
     if angle_match:
         angle_block = angle_match.group(0).strip()
@@ -210,7 +210,7 @@ def strip_angle_statement(output: str) -> str:
         r"\*\*Angle Statement:\*\*.*?\n---\n",
         "",
         output,
-        flags=re.DOTALL,
+        flags=re.DOTALL | re.IGNORECASE,
     ).strip()
 
 
