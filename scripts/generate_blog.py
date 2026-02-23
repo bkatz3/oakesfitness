@@ -253,6 +253,7 @@ def main():
     topic_file = os.getenv("TOPIC_FILE", "scripts/TOPIC_IDEAS.md")
     skill_file = os.getenv("SKILL_FILE", "scripts/oakesfitness_blog_skill.md")
     dry_run = os.getenv("DRY_RUN", "0") == "1"
+    allow_dirty_tree = os.getenv("ALLOW_DIRTY_TREE", "0") == "1"
 
     if is_relative(blog_output_dir):
         blog_output_dir = str(repo_root / blog_output_dir)
@@ -264,6 +265,21 @@ def main():
     blog_dir = Path(blog_output_dir)
     topic_path = Path(topic_file)
     skill_path = Path(skill_file)
+
+    dirty_tree = False
+    if not dry_run:
+        try:
+            status = run_cmd(["git", "status", "--porcelain"], cwd=repo_root)
+            if status.stdout.strip():
+                dirty_tree = True
+                if allow_dirty_tree:
+                    log("warning", "Git working tree is dirty. Proceeding because ALLOW_DIRTY_TREE=1.")
+                else:
+                    log("error", "Git working tree is dirty. Commit or stash changes and retry.")
+                    sys.exit(1)
+        except Exception as e:
+            log("error", f"Failed to check git status: {e}")
+            sys.exit(1)
 
     if not topic_path.exists():
         log("error", f"TOPIC_IDEAS.md not found at {topic_path}")
@@ -366,12 +382,11 @@ def main():
     log("info", f"Updated {topic_path} for topic #{topic.number}")
 
     # Git + PR automation
-    try:
-        status = run_cmd(["git", "status", "--porcelain"], cwd=repo_root)
-        if status.stdout.strip():
-            log("error", "Git working tree is dirty. Commit or stash changes and retry.")
-            sys.exit(1)
+    if dirty_tree and allow_dirty_tree:
+        log("info", "Skipping git automation because working tree is dirty.")
+        return
 
+    try:
         branch_name = f"blog/{today}-{slug}"
 
         run_cmd(["git", "checkout", "main"], cwd=repo_root)
