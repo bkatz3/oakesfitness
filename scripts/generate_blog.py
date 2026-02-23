@@ -214,6 +214,19 @@ def strip_angle_statement(output: str) -> str:
     ).strip()
 
 
+def extract_public_body(output: str) -> str:
+    stripped = strip_angle_statement(output)
+    lines = stripped.splitlines()
+    start_idx = None
+    for i, line in enumerate(lines):
+        if line.startswith("# "):
+            start_idx = i
+            break
+    if start_idx is None:
+        return stripped.strip()
+    return "\n".join(lines[start_idx:]).strip()
+
+
 def scan_existing_posts(blog_dir: Path):
     posts = []
     if not blog_dir.exists():
@@ -240,6 +253,45 @@ def run_cmd(cmd, cwd: Path, check=True):
     if check and result.returncode != 0:
         raise RuntimeError(f"Command failed: {' '.join(cmd)}\n{result.stderr.strip()}")
     return result
+
+
+def update_llms_file(llms_path: Path, title: str, slug: str) -> bool:
+    if not llms_path.exists():
+        log("warning", f"llms.txt not found at {llms_path}; skipping update.")
+        return False
+
+    url = f"https://oakesfitness.com/blog/{slug}"
+    entry = f"- [{title}]({url})"
+
+    text = llms_path.read_text(encoding="utf-8")
+    if entry in text or url in text:
+        log("info", "llms.txt already contains this blog post. Skipping update.")
+        return False
+
+    lines = text.splitlines()
+    insert_idx = None
+    for i, line in enumerate(lines):
+        if line.strip() == "## Blog Posts":
+            insert_idx = i + 1
+            break
+
+    if insert_idx is None:
+        if lines and lines[-1].strip() != "":
+            lines.append("")
+        lines.append("## Blog Posts")
+        lines.append("")
+        lines.append(entry)
+    else:
+        if insert_idx < len(lines) and lines[insert_idx].strip() == "":
+            insert_idx += 1
+        end_idx = insert_idx
+        while end_idx < len(lines) and not lines[end_idx].startswith("## "):
+            end_idx += 1
+        lines.insert(insert_idx, entry)
+
+    llms_path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+    log("info", f"Updated {llms_path} with new blog post.")
+    return True
 
 
 def main():
@@ -356,22 +408,16 @@ def main():
     frontmatter = [
         "---",
         f"title: \"{title}\"",
-        f"description: \"{meta_desc}\"",
         f"date: {today}",
         "author: \"The Oakes Fitness Team\"",
         f"tier: {topic.tier.replace('T', '')}",
         f"category: \"{topic.category}\"",
-        "keywords:",
+        "draft: true",
+        "---",
     ]
-    if primary_kw:
-        frontmatter.append(f"  - \"{primary_kw}\"")
-    for kw in secondary_kws[:5]:
-        frontmatter.append(f"  - \"{kw}\"")
-    frontmatter.append("draft: true")
-    frontmatter.append("---")
 
-    cleaned_output = strip_angle_statement(output_text)
-    out_text = "\n".join(frontmatter) + "\n\n" + cleaned_output + "\n"
+    public_body = extract_public_body(output_text)
+    out_text = "\n".join(frontmatter) + "\n\n" + public_body + "\n"
     out_path.write_text(out_text, encoding="utf-8")
     log("info", f"Wrote post to {out_path}")
 
@@ -380,6 +426,9 @@ def main():
     lines[topic.line_index] = new_line
     topic_path.write_text("".join(lines), encoding="utf-8")
     log("info", f"Updated {topic_path} for topic #{topic.number}")
+
+    llms_path = repo_root / "llms.txt"
+    llms_updated = update_llms_file(llms_path, title, slug)
 
     # Git + PR automation
     if dirty_tree and allow_dirty_tree:
@@ -394,6 +443,8 @@ def main():
         run_cmd(["git", "checkout", "-b", branch_name], cwd=repo_root)
         run_cmd(["git", "add", str(out_path)], cwd=repo_root)
         run_cmd(["git", "add", str(topic_path)], cwd=repo_root)
+        if llms_updated:
+            run_cmd(["git", "add", str(llms_path)], cwd=repo_root)
         run_cmd(["git", "commit", "-m", f"blog: Add post - {title}"], cwd=repo_root)
         run_cmd(["git", "push", "origin", branch_name], cwd=repo_root)
 

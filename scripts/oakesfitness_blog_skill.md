@@ -411,16 +411,17 @@ Write with the authority of an experienced personal trainer who specializes in t
 Once the post is published to oakesfitness.com:
 
 1. **Update `TOPIC_IDEAS.md`** — mark as ✅ Written with date
-2. **Cross-post to Google Business Profile:**
+2. **Update `llms.txt`** — add the new blog post with its title and URL
+3. **Cross-post to Google Business Profile:**
    - Create a GBP post summarizing the blog post (150-300 words)
    - Link back to the full blog post on oakesfitness.com
    - Include a CTA ("Book a free consultation," "Visit us in Westford," etc.)
    - This creates a content loop: blog feeds GBP, GBP reinforces local authority
-3. **Social media snippet:**
+4. **Social media snippet:**
    - Draft a short social post (Facebook/Instagram) with the key takeaway
    - Tag location as Westford, MA
    - Use 2-3 relevant hashtags (#WestfordMA #WestfordFitness #MerrimackValley)
-4. **Backfill internal links:**
+5. **Backfill internal links:**
    - Review 2-3 existing posts that relate to the new topic
    - Add a natural link from those older posts to the new one
 
