@@ -7,6 +7,7 @@ Run from the repo root:
 
 import re
 import sys
+from datetime import date as date_cls
 from pathlib import Path
 
 try:
@@ -16,7 +17,7 @@ except ImportError:
 
 CONTENT_DIR = Path("blog")
 BLOG_DIR = Path("blog")
-BLOG_HTML = Path("blog.html")
+SITEMAP = Path("sitemap.xml")
 
 MONTHS = [
     "", "January", "February", "March", "April", "May", "June",
@@ -297,7 +298,7 @@ def post_page_html(*, title, date_str, iso, author, category, description, body_
 
 def card_html(*, title, date_str, author, category, description, slug):
     return f"""\
-                <a href="/blog/{slug}.html" class="update-card">
+                <a href="/blog/{slug}" class="update-card">
                     <div class="card-meta">
                         <span class="card-date">{date_str}</span>
                     </div>
@@ -386,13 +387,10 @@ def listing_page_html(cards: str) -> str:
 def update_blog_listing(cards: str) -> None:
     html = listing_page_html(cards)
 
-    # Write blog/index.html (serves at /blog/ on Vercel)
+    # Write blog/index.html (serves at /blog on Vercel via cleanUrls)
     index_path = BLOG_DIR / "index.html"
     index_path.write_text(html, encoding="utf-8")
     print(f"  generated: {index_path}")
-
-    # Write root blog.html (same content, alternate entry point)
-    BLOG_HTML.write_text(html, encoding="utf-8")
 
 
 # ---------------------------------------------------------------------------
@@ -460,15 +458,54 @@ def main():
             category=category,
             description=description,
             slug=slug,
+            iso=iso,
         ))
 
     if not posts:
         print("No published posts found (all may have draft: true).")
         return
 
-    cards = "\n".join(card_html(**p) for p in posts)
+    # card_html doesn't accept iso; pass only the expected kwargs
+    card_kwargs = ["title", "date_str", "author", "category", "description", "slug"]
+    cards = "\n".join(card_html(**{k: p[k] for k in card_kwargs}) for p in posts)
     update_blog_listing(cards)
-    print(f"  updated:   {BLOG_HTML}")
+
+    # Regenerate sitemap.xml with all published post URLs
+    today = date_cls.today().isoformat()
+    post_entries = "\n".join(
+        f"  <url>\n"
+        f"    <loc>https://oakesfitness.com/blog/{p['slug']}</loc>\n"
+        f"    <lastmod>{p['iso']}</lastmod>\n"
+        f"    <changefreq>monthly</changefreq>\n"
+        f"    <priority>0.6</priority>\n"
+        f"  </url>"
+        for p in posts
+    )
+    sitemap_content = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://oakesfitness.com/</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://oakesfitness.com/blog</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://oakesfitness.com/contact</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+{post_entries}
+</urlset>
+"""
+    SITEMAP.write_text(sitemap_content, encoding="utf-8")
+    print(f"  updated:   {SITEMAP}")
     print(f"\nBuilt {len(posts)} post(s).")
 
 
