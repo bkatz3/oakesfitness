@@ -55,7 +55,7 @@ These build authority on fitness topics for the 50+ population. No forced geogra
 ### Strength Training Fundamentals
 
 25. ✅ Written (2026-02-22) How Often Should You Strength Train After 50?
-26. 🟢 How to Build Muscle After 50 Without Wrecking Your Joints
+26. ✅ Written (2026-02-23) How to Build Muscle After 50 Without Wrecking Your Joints
 27. 🟢 Is It Too Late to Start Lifting Weights at 55 or 60?
 28. 🟢 How Much Weight Should You Lift After 50? A Simple Guide to Loading
 29. 🟢 Why Progressive Overload Matters More After 50 (and How to Do It Safely)
