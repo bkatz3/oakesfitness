@@ -482,7 +482,7 @@ def main():
 
             if angle_block:
                 run_cmd([
-                    "gh", "pr", "comment",
+                    "gh", "pr", "comment", branch_name,
                     "--repo", gh_repo,
                     "--body", angle_block,
                 ], cwd=repo_root)
