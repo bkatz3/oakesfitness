@@ -1,12 +1,3 @@
----
-title: "Why Losing Weight After 50 Is Different (and What Actually Works)"
-date: 2026-02-22
-author: "The Oakes Fitness Team"
-tier: 2
-category: "Weight Loss and Body Composition"
-draft: true
----
-
 # Why Losing Weight After 50 Is Different (and What Actually Works)
 
 *By The Oakes Fitness Team*
