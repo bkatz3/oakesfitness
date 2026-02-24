@@ -1,3 +1,1 @@
-blog/*.md
-scripts/
-requirements.txt
+.venv/

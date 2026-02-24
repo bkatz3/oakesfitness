@@ -294,13 +294,66 @@ def update_llms_file(llms_path: Path, title: str, slug: str) -> bool:
     return True
 
 
+def branch_exists_locally(repo_root: Path, branch_name: str) -> bool:
+    result = run_cmd(["git", "branch", "--list", branch_name], cwd=repo_root, check=False)
+    return bool(result.stdout.strip())
+
+
+def branch_exists_remotely(repo_root: Path, branch_name: str) -> bool:
+    result = run_cmd(
+        ["git", "ls-remote", "--heads", "origin", branch_name], cwd=repo_root, check=False
+    )
+    return bool(result.stdout.strip())
+
+
+def get_open_pr_for_branch(repo_root: Path, branch_name: str, gh_repo: str) -> str:
+    """Returns the PR URL if an open PR exists for the branch, else empty string."""
+    if not shutil.which("gh"):
+        return ""
+    cmd = [
+        "gh", "pr", "list",
+        "--head", branch_name,
+        "--state", "open",
+        "--json", "url",
+        "--jq", ".[0].url",
+    ]
+    if gh_repo:
+        cmd += ["--repo", gh_repo]
+    result = run_cmd(cmd, cwd=repo_root, check=False)
+    return result.stdout.strip()
+
+
+def cleanup_stale_blog_branches(repo_root: Path, gh_repo: str) -> None:
+    """Delete remote blog/* branches that have no open PR."""
+    if not shutil.which("gh"):
+        log("info", "gh not available; skipping stale branch cleanup.")
+        return
+    result = run_cmd(
+        ["git", "ls-remote", "--heads", "origin", "blog/*"], cwd=repo_root, check=False
+    )
+    if not result.stdout.strip():
+        return
+    for line in result.stdout.strip().splitlines():
+        parts = line.split("\t")
+        if len(parts) != 2:
+            continue
+        branch = parts[1].replace("refs/heads/", "")
+        pr_url = get_open_pr_for_branch(repo_root, branch, gh_repo)
+        if not pr_url:
+            log("info", f"Deleting stale remote branch with no open PR: {branch}")
+            run_cmd(["git", "push", "origin", "--delete", branch], cwd=repo_root, check=False)
+
+
 def main():
     load_dotenv()
 
     repo_root = Path(__file__).resolve().parents[1]
+    in_ci = os.getenv("CI", "").lower() == "true"
 
     model = os.getenv("MODEL", "claude-sonnet-4-20250514")
     gh_repo = os.getenv("GH_REPO", "").strip()
+    if in_ci and not gh_repo:
+        gh_repo = os.getenv("GITHUB_REPOSITORY", "").strip()
     blog_output_dir = os.getenv("BLOG_OUTPUT_DIR", "content/blog")
     topic_file = os.getenv("TOPIC_FILE", "scripts/TOPIC_IDEAS.md")
     skill_file = os.getenv("SKILL_FILE", "scripts/oakesfitness_blog_skill.md")
@@ -319,7 +372,7 @@ def main():
     skill_path = Path(skill_file)
 
     dirty_tree = False
-    if not dry_run:
+    if not dry_run and not in_ci:
         try:
             status = run_cmd(["git", "status", "--porcelain"], cwd=repo_root)
             if status.stdout.strip():
@@ -340,6 +393,10 @@ def main():
         log("error", f"Skill file not found at {skill_path}")
         sys.exit(1)
 
+    # Clean up stale remote branches before selecting a topic
+    if not dry_run:
+        cleanup_stale_blog_branches(repo_root, gh_repo)
+
     content, lines, topics, topic_order = load_topic_file(topic_path)
     topic = select_next_topic(content, topics, topic_order)
     if not topic:
@@ -347,6 +404,14 @@ def main():
         sys.exit(0)
 
     log("info", f"Selected topic #{topic.number}: {topic.title} ({topic.tier}, {topic.category})")
+
+    # Idempotency guard: skip if a post was already generated for today's topic
+    today = date.today().isoformat()
+    topic_slug = slugify(topic.title)
+    expected_path = blog_dir / f"{today}-{topic_slug}.md"
+    if expected_path.exists():
+        log("info", f"Post already generated today for this topic: {expected_path}. Exiting.")
+        sys.exit(0)
 
     skill_text = skill_path.read_text(encoding="utf-8")
     internal_links = ["index.html", "contact.html"]
@@ -398,7 +463,6 @@ def main():
         log("error", f"Failed to parse model output. Saved raw output to {debug_path}")
         sys.exit(1)
 
-    today = date.today().isoformat()
     slug = slugify(title)
     filename = f"{today}-{slug}.md"
 
@@ -436,12 +500,32 @@ def main():
         log("info", "Skipping git automation because working tree is dirty.")
         git_automation = False
 
+    branch_name = f"blog/{today}-{slug}"
+    branch_created = False
+
     try:
         if not git_automation:
             write_outputs()
             return
 
-        branch_name = f"blog/{today}-{slug}"
+        # Handle existing branch: skip if open PR exists, clean up if stale
+        local_exists = branch_exists_locally(repo_root, branch_name)
+        remote_exists = branch_exists_remotely(repo_root, branch_name)
+        if local_exists or remote_exists:
+            pr_url = get_open_pr_for_branch(repo_root, branch_name, gh_repo)
+            if pr_url:
+                log("info", f"Open PR already exists for branch {branch_name}: {pr_url}. Skipping.")
+                sys.exit(0)
+            else:
+                log("info", f"Stale branch {branch_name} found (no open PR). Cleaning up.")
+                if local_exists:
+                    run_cmd(["git", "branch", "-D", branch_name], cwd=repo_root, check=False)
+                if remote_exists:
+                    run_cmd(
+                        ["git", "push", "origin", "--delete", branch_name],
+                        cwd=repo_root,
+                        check=False,
+                    )
 
         current_branch = run_cmd(
             ["git", "rev-parse", "--abbrev-ref", "HEAD"],
@@ -451,6 +535,7 @@ def main():
             run_cmd(["git", "checkout", "main"], cwd=repo_root)
         run_cmd(["git", "pull", "origin", "main"], cwd=repo_root)
         run_cmd(["git", "checkout", "-b", branch_name], cwd=repo_root)
+        branch_created = True
 
         llms_path, llms_updated = write_outputs()
 
@@ -468,34 +553,43 @@ def main():
         run_cmd(["git", "push", "origin", branch_name], cwd=repo_root)
 
         if gh_repo and shutil.which("gh"):
-            pr_body = (
-                "Auto-generated blog post for review.\n\n"
-                f"Topic: {title}\n"
-                f"Tier: {topic.tier}\n"
-                f"Category: {topic.category}\n\n"
-                "Please review before merging."
-            )
-            run_cmd([
-                "gh", "pr", "create",
-                "--repo", gh_repo,
-                "--title", f"Blog Post: {title}",
-                "--body", pr_body,
-                "--draft",
-            ], cwd=repo_root)
-            log("info", "Created draft PR via gh.")
-
-            if angle_block:
+            # Check for an existing open PR before creating a new one
+            existing_pr = get_open_pr_for_branch(repo_root, branch_name, gh_repo)
+            if existing_pr:
+                log("info", f"Open PR already exists: {existing_pr}. Skipping PR creation.")
+            else:
+                pr_body = (
+                    "Auto-generated blog post for review.\n\n"
+                    f"Topic: {title}\n"
+                    f"Tier: {topic.tier}\n"
+                    f"Category: {topic.category}\n\n"
+                    "Please review before merging."
+                )
                 run_cmd([
-                    "gh", "pr", "comment", branch_name,
+                    "gh", "pr", "create",
                     "--repo", gh_repo,
-                    "--body", angle_block,
+                    "--title", f"Blog Post: {title}",
+                    "--body", pr_body,
+                    "--draft",
                 ], cwd=repo_root)
-                log("info", "Posted angle statement as PR comment.")
+                log("info", "Created draft PR via gh.")
+
+                if angle_block:
+                    run_cmd([
+                        "gh", "pr", "comment", branch_name,
+                        "--repo", gh_repo,
+                        "--body", angle_block,
+                    ], cwd=repo_root)
+                    log("info", "Posted angle statement as PR comment.")
         else:
             log("info", "Skipping PR creation (GH_REPO not set or gh not available).")
 
     except Exception as e:
         log("error", str(e))
+        if branch_created:
+            log("info", "Rolling back: checking out main and deleting local branch.")
+            run_cmd(["git", "checkout", "main"], cwd=repo_root, check=False)
+            run_cmd(["git", "branch", "-D", branch_name], cwd=repo_root, check=False)
         sys.exit(1)
 
 

@@ -1,4 +1,5 @@
 {
+  "buildCommand": "pip install pyyaml && python3 scripts/build_blog.py",
   "cleanUrls": true,
   "trailingSlash": false,
   "outputDirectory": "."

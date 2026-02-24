@@ -2,4 +2,5 @@
 .venv/
 .vercel/
 scripts/last_model_output.txt
+blog/*.html
 
