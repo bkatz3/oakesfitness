@@ -1,5 +1,5 @@
 {
-  "buildCommand": "uv pip install --system pyyaml && python3 scripts/build_blog.py",
+  "buildCommand": "python3 scripts/build_blog.py",
   "cleanUrls": true,
   "trailingSlash": false,
   "outputDirectory": "."
