@@ -162,8 +162,8 @@ Include the angle statement, meta description, keywords, full post body,
 key takeaways, and NAP footer.
 
 For research citations: Only include PubMed/NIH/peer-reviewed citations
-you are confident are real. If you're unsure about a citation, flag it
-with [VERIFY] so I can check it before publishing.
+you are confident are real. If you're unsure whether a citation is accurate,
+omit it entirely rather than including it or flagging it with a placeholder.
 
 Internal links: Use the homepage and contact page for now. Targets: {links_text}.{existing_text}
 """
@@ -214,8 +214,14 @@ def strip_angle_statement(output: str) -> str:
     ).strip()
 
 
+def strip_verify_tags(text: str) -> str:
+    """Remove any [VERIFY...] placeholders the model may have left in."""
+    return re.sub(r"\s*\[VERIFY[^\]]*\]", "", text)
+
+
 def extract_public_body(output: str) -> str:
     stripped = strip_angle_statement(output)
+    stripped = strip_verify_tags(stripped)
     lines = stripped.splitlines()
     start_idx = None
     for i, line in enumerate(lines):

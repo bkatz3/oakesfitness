@@ -70,7 +70,7 @@ Don't choose based on location convenience alone. The difference between a train
 
 Most successful fitness transformations after 50 start with 6-12 months of consistent personal training, then transition to a mix of supervised and independent work. The initial investment typically ranges from $2,000-$4,000 for that foundation phase.
 
-Compare that to the alternative: years of gym memberships, failed attempts, injury recovery costs, and the health consequences of remaining sedentary. The personal training investment pays for itself within the first year through avoided medical costs alone, according to multiple studies on exercise's impact on healthcare utilization in older adults [VERIFY: Need to confirm specific studies on healthcare cost reduction].
+Compare that to the alternative: years of gym memberships, failed attempts, injury recovery costs, and the health consequences of remaining sedentary.
 
 If budget is a constraint, consider starting with twice-weekly sessions for three months, then dropping to once weekly for maintenance. This hybrid approach costs less than daily group fitness classes while providing the individualized attention your 50+ body needs.
 
