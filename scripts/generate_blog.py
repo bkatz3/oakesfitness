@@ -463,7 +463,7 @@ def main():
         if llms_updated:
             run_cmd(["git", "add", str(llms_path)], cwd=repo_root)
         run_cmd(["git", "add", str(blog_dir)], cwd=repo_root)
-        run_cmd(["git", "add", str(repo_root / "blog.html")], cwd=repo_root)
+        run_cmd(["git", "add", str(repo_root / "sitemap.xml")], cwd=repo_root)
         run_cmd(["git", "commit", "-m", f"blog: Add post - {title}"], cwd=repo_root)
         run_cmd(["git", "push", "origin", branch_name], cwd=repo_root)
 
