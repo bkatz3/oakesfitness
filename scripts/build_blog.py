@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+oake#!/usr/bin/env python3
 """Build static HTML pages for blog posts and update blog.html listing.
 
 Run from the repo root:
