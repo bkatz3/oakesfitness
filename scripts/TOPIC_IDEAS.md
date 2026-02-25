@@ -127,7 +127,7 @@ These build authority on fitness topics for the 50+ population. No forced geogra
 
 ### Nutrition
 
-77. 🟢 How Much Protein Do You Need After 50 to Build Muscle?
+77. ✅ Written (2026-02-25) How Much Protein Do You Need After 50 to Build Muscle?
 78. 🟢 Best Protein Sources for Adults Over 50
 79. 🟢 Why Protein Timing Matters More After 50
 80. 🟢 Do You Need Creatine After 50? What the Research Shows
