@@ -66,7 +66,7 @@ At Oakes Fitness, protein intake is one of the first things we review with new c
 
 ## Key Takeaways
 
-- Active adults over 50 need 1.2-1.6 grams of protein per kilogram of body weight daily, roughly double the government's minimum RDA.
+- Active adults over 50 need 1.2-1.6 grams of protein per kilogram of body weight daily — 50–100% above the government's minimum RDA, depending on activity level.
 - Aim for 30-40 grams of protein per meal to overcome anabolic resistance, the age-related decline in muscle's ability to use protein efficiently.
 - Spreading protein across three or more meals produces better muscle-building results than loading most of it into one or two meals.
 - High-leucine sources like whey, chicken, eggs, and Greek yogurt are the most effective for triggering muscle protein synthesis after 50.
