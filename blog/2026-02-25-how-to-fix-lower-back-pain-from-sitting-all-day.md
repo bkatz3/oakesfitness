@@ -5,18 +5,6 @@ author: "The Oakes Fitness Team"
 category: "Recovery and Injury Prevention"
 ---
 
-**Angle Statement:** Most advice for desk-related back pain treats the symptom (tightness) while ignoring the cause (weakness). After 50, the muscle loss that accelerates with age compounds the problem prolonged sitting creates: a back that hurts because the glutes and deep core aren't strong enough to protect it. Stretching alone doesn't fix a strength deficit.
-
----
-
-**Meta Description:** Lower back pain from sitting all day usually comes from weakness, not just tightness. Here are the specific exercises that fix it for adults over 50.
-
-**Primary Keyword:** how to fix lower back pain from sitting all day
-
-**Secondary Keywords:** lower back pain desk job, hip flexors and lower back pain, back pain exercises after 50
-
----
-
 # How to Fix Lower Back Pain From Sitting All Day
 
 *By The Oakes Fitness Team*
