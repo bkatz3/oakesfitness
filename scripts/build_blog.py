@@ -49,11 +49,12 @@ def inline_md(text: str) -> str:
 
 
 def md_to_html(text: str) -> str:
-    """Convert a subset of Markdown to HTML (headings, paragraphs, lists, hr)."""
+    """Convert a subset of Markdown to HTML (headings, paragraphs, lists, tables, hr)."""
     lines = text.split("\n")
     out: list[str] = []
     para: list[str] = []
     in_ul = False
+    table_rows: list[str] = []  # accumulate raw | lines before flushing as a table
 
     def flush_para() -> None:
         nonlocal para
@@ -67,8 +68,54 @@ def md_to_html(text: str) -> str:
             out.append("</ul>")
             in_ul = False
 
+    def parse_cells(row: str) -> list[str]:
+        """Split a | row into a list of stripped cell strings."""
+        cells = [c.strip() for c in row.split("|")]
+        if cells and cells[0] == "":
+            cells = cells[1:]
+        if cells and cells[-1] == "":
+            cells = cells[:-1]
+        return cells
+
+    def flush_table() -> None:
+        nonlocal table_rows
+        if not table_rows:
+            return
+        rows = table_rows[:]
+        table_rows.clear()
+
+        # Need at least a header row + separator row
+        if len(rows) < 2:
+            out.append(f"<p>{inline_md(rows[0])}</p>")
+            return
+
+        headers = parse_cells(rows[0])
+        # rows[1] is the separator (|---|---|), skip it
+        data_rows = rows[2:]
+
+        parts = ["<table>", "<thead>", "<tr>"]
+        for h in headers:
+            parts.append(f"<th>{inline_md(h)}</th>")
+        parts += ["</tr>", "</thead>", "<tbody>"]
+        for row in data_rows:
+            parts.append("<tr>")
+            for cell in parse_cells(row):
+                parts.append(f"<td>{inline_md(cell)}</td>")
+            parts.append("</tr>")
+        parts += ["</tbody>", "</table>"]
+        out.append("\n".join(parts))
+
     for line in lines:
         s = line.strip()
+
+        # Collect table rows (lines starting with |)
+        if s.startswith("|"):
+            flush_para()
+            close_ul()
+            table_rows.append(s)
+            continue
+        else:
+            flush_table()
 
         if re.fullmatch(r"-{3,}|\*{3,}", s):
             flush_para(); close_ul()
@@ -98,7 +145,9 @@ def md_to_html(text: str) -> str:
         close_ul()
         para.append(s)
 
-    flush_para(); close_ul()
+    flush_para()
+    close_ul()
+    flush_table()
     return "\n".join(out)
 
 
