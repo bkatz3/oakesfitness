@@ -35,16 +35,9 @@ Here's exactly what to expect, and a few signals that tell you whether to book a
 
 ## What Actually Happens at a First Personal Training Session?
 
-The first 15-20 minutes should be a conversation. A good trainer will ask about your injury history, current activity level, sleep quality, and what you actually want out of training. Not a quick intake form, but a real discussion.
+A good trainer starts with a conversation, not a workout. They will ask about your injury history, current activity level, sleep quality, and what you actually want out of training. Not a quick intake form, but a real discussion.
 
-From there, most trainers run a movement screen: a set of basic exercises (squat, hinge, overhead press, and some core work) to see how you move before adding weight. This is not about strength. It is about identifying what needs attention and what is safe to load.
-
-A typical first session looks like this:
-
-1. Intake conversation (15-20 min)
-2. Movement screen (15-20 min)
-3. Light introductory training (20-25 min)
-4. Recap and program overview (10 min)
+From there, expect some form of movement assessment: basic exercises to see how you move before adding weight. This is not about strength. It is about identifying what needs attention and what is safe to load.
 
 You should leave with a clear picture of where you are starting and what the first few weeks of your program will look like. If you do not, ask for it before you leave.
 
@@ -60,14 +53,14 @@ More importantly, come prepared to be honest. The most useful thing you can brin
 
 People often understate their limitations or overstate their fitness level, thinking it will lead to harder training. What it actually leads to is poorly designed programming and avoidable setbacks. Your trainer needs real information to build a plan that works.
 
-At Oakes Fitness in Westford, MA, the first session runs about an hour. The first half covers history and movement. The second half gets you moving with proper technique under light load. No one leaves wrecked. They leave knowing their starting point and confident about what comes next.
+At Oakes Fitness in Westford, MA, the first session is built around understanding you before training you. No one leaves wrecked. They leave knowing their starting point and confident about what comes next.
 
 ## How Do You Know If a Personal Trainer in Westford Is the Right Fit?
 
 A few things to watch after a first session:
 
 **Good signs:**
-- They asked more questions than they gave advice in the first 20 minutes
+- They asked more questions than they gave advice before any training started
 - They can explain why they selected specific exercises for you
 - They modified movements without being asked when something did not look right
 - They were honest about your starting point rather than flattering you
@@ -84,7 +77,7 @@ If you are ready to get started, Oakes Fitness offers a free consultation with n
 
 ## Key Takeaways
 
-- A well-run first personal training session is primarily an assessment: 15-20 minutes of intake conversation and a movement screen before any significant training.
+- A well-run first personal training session is primarily an assessment: intake conversation and a movement screen before any significant training.
 - Bring honest information about your injury history, schedule, and current fitness level. Accurate intake leads to better programming.
 - You should leave the first session knowing your starting point and what your first few weeks of training will look like.
 - Red flags include cookie-cutter programming, pressure to buy packages upfront, and skipping movement screening before loading weight.
