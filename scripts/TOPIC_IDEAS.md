@@ -22,7 +22,7 @@ These target high-intent local searches. Every title includes a geographic modif
 
 ### Getting Started / First Session
 
-8. 🟢 What to Expect at Your First Personal Training Session After 50 in Westford MA
+8. ✅ Written (2026-02-28) What to Expect at Your First Personal Training Session in Westford MA
 9. 🟢 How to Start Strength Training if You've Never Lifted Before (Westford MA Guide)
 10. 🟢 Getting Back to the Gym in Westford: A Realistic Plan That Won't Wreck Your Joints
 11. 🟢 How to Start Exercising Again After a Long Break (Westford Area Guide)
