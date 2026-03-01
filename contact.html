@@ -41,6 +41,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-WC2743QC');</script>
     <!-- End Google Tag Manager -->
+    <script src="/analytics.js"></script>
 
     <script type="application/ld+json">
     {
@@ -374,11 +375,6 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="phone">Phone Number *</label>
-                        <input type="tel" id="phone" name="phone" required placeholder="(555) 123-4567" pattern="\(\d{3}\) \d{3}-\d{4}">
-                    </div>
-
-                    <div class="form-group">
                         <label for="location">Preferred Location *</label>
                         <select id="location" name="location" required>
                             <option value="Concord">Concord</option>
@@ -417,31 +413,7 @@
         const form = document.getElementById('contactForm');
         const submitBtn = document.getElementById('submitBtn');
         const successMessage = document.getElementById('successMessage');
-        const phoneInput = document.getElementById('phone');
         const emailInput = document.getElementById('email');
-
-        // Phone number formatting
-        phoneInput.addEventListener('input', function(e) {
-            let value = e.target.value.replace(/\D/g, ''); // Remove non-digits
-
-            if (value.length > 10) {
-                value = value.slice(0, 10);
-            }
-
-            let formattedValue = '';
-
-            if (value.length > 0) {
-                formattedValue = '(' + value.substring(0, 3);
-            }
-            if (value.length >= 4) {
-                formattedValue += ') ' + value.substring(3, 6);
-            }
-            if (value.length >= 7) {
-                formattedValue += '-' + value.substring(6, 10);
-            }
-
-            e.target.value = formattedValue;
-        });
 
         // Email validation with custom message
         emailInput.addEventListener('invalid', function(e) {
@@ -453,19 +425,6 @@
         });
 
         emailInput.addEventListener('input', function(e) {
-            this.setCustomValidity('');
-        });
-
-        // Phone validation with custom message
-        phoneInput.addEventListener('invalid', function(e) {
-            if (this.validity.patternMismatch) {
-                this.setCustomValidity('Please enter a valid 10-digit phone number');
-            } else if (this.validity.valueMissing) {
-                this.setCustomValidity('Phone number is required');
-            }
-        });
-
-        phoneInput.addEventListener('input', function(e) {
             this.setCustomValidity('');
         });
 

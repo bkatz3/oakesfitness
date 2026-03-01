@@ -304,6 +304,7 @@ def post_page_html(*, title, date_str, iso, author, category, description, body_
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     }})(window,document,'script','dataLayer','GTM-WC2743QC');</script>
     <!-- End Google Tag Manager -->
+    <script src="/analytics.js"></script>
 
     <script type="application/ld+json">
     {{
@@ -414,6 +415,7 @@ def listing_page_html(cards: str) -> str:
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     }})(window,document,'script','dataLayer','GTM-WC2743QC');</script>
     <!-- End Google Tag Manager -->
+    <script src="/analytics.js"></script>
 
     <script type="application/ld+json">
     {{
