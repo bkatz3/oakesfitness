@@ -1425,7 +1425,7 @@ body {
 .services-row {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 5rem;
     overflow-x: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -1481,8 +1481,7 @@ body {
     font-weight: 700;
     letter-spacing: 0.08em;
     color: var(--text-primary);
-    text-decoration: underline;
-    text-underline-offset: 3px;
+    text-decoration: none;
     line-height: 1.5;
     text-align: center;
 }
