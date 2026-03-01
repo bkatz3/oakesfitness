@@ -1,3 +1,41 @@
+// Hero flicker animation — cycles through phrases, ends on "live better."
+const flickerEl = document.querySelector('.hero-flicker');
+if (flickerEl) {
+    const phrases = [
+        'getting stronger',
+        'losing weight',
+        'feeling healthier',
+        'moving without pain',
+        'feeling confident',
+        'living better.'
+    ];
+    let current = 0;
+
+    function nextPhrase() {
+        // Don't cycle past the last phrase
+        if (current >= phrases.length - 1) return;
+
+        // Fade out
+        flickerEl.classList.add('fading');
+
+        setTimeout(() => {
+            current++;
+            flickerEl.textContent = phrases[current];
+
+            // Fade back in
+            flickerEl.classList.remove('fading');
+
+            // Keep cycling unless we've landed on the final phrase
+            if (current < phrases.length - 1) {
+                setTimeout(nextPhrase, 2500);
+            }
+        }, 350); // matches the CSS transition duration
+    }
+
+    // Start cycling after a short delay so the page load animation settles
+    setTimeout(nextPhrase, 2500);
+}
+
 // Scroll Reveal Animation
 const revealElements = document.querySelectorAll('.reveal');
 

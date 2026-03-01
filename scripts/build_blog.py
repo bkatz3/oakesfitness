@@ -209,8 +209,8 @@ NAV = """\
             </div>
             <div class="nav-links">
                 <a href="/" class="mobile-only">Home</a>
-                <a href="/#about">About</a>
-                <a href="/#services">Services</a>
+                <a href="/westford">Westford</a>
+                <a href="/concord">Concord</a>
                 <a href="/contact">Contact</a>
                 <div class="nav-phones">
                     <a href="tel:978-277-6300" class="phone-link">Westford: 978-277-6300</a>
@@ -561,6 +561,18 @@ def main():
     <lastmod>{today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://oakesfitness.com/westford</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://oakesfitness.com/concord</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://oakesfitness.com/blog</loc>

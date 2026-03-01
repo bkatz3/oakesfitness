@@ -190,21 +190,31 @@ body {
 }
 
 .hero-title {
-    font-size: clamp(2.5rem, 8vw, 5rem);
+    font-size: clamp(2rem, 7.5vw, 4.5rem);
     font-weight: 900;
-    line-height: 1.1;
+    line-height: 1.15;
     margin-bottom: 1.5rem;
-    background: linear-gradient(135deg, #4D9FFF 0%, #6BB3FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #ffffff;
+}
+
+/* The cycling blue phrase */
+.hero-flicker {
+    color: var(--accent-primary);
+    opacity: 1;
+    transition: opacity 0.35s ease;
+    display: inline-block;
+}
+
+.hero-flicker.fading {
+    opacity: 0;
 }
 
 .hero-subtitle {
     font-size: clamp(1.1rem, 3vw, 1.5rem);
-    color: var(--text-secondary);
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
     margin-bottom: 2.5rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .hero-cta {
@@ -243,6 +253,48 @@ body {
 
 .delay-3 {
     animation-delay: 0.6s;
+}
+
+.delay-4 {
+    animation-delay: 0.8s;
+}
+
+/* Hero CTA group — stacks primary + secondary vertically, equal width */
+.hero-cta-group {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    align-items: stretch;
+}
+
+/* Both buttons fill the group width */
+.hero-cta-group .hero-cta,
+.hero-cta-group .hero-cta-secondary {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Secondary ghost button for hero section */
+.hero-cta-secondary {
+    display: inline-block;
+    background: transparent;
+    color: var(--text-primary);
+    padding: 1.2rem 2.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    border: 2px solid var(--accent-primary);
+    transition: all 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.hero-cta-secondary:hover {
+    border-color: var(--accent-primary);
+    background: rgba(43, 139, 255, 0.15);
+    transform: translateY(-3px);
 }
 
 @keyframes fadeInUp {
@@ -1317,6 +1369,213 @@ body {
 
     .post-header h1 {
         font-size: 1.6rem;
+    }
+}
+
+/* Studio Chooser Section */
+.studio-chooser {
+    padding: 8rem 0;
+    background: var(--dark-secondary);
+}
+
+.studio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.studio-card {
+    background: rgba(26, 26, 26, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(1, 86, 211, 0.1);
+    transition: all 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.75rem;
+}
+
+.studio-card:hover {
+    transform: translateY(-10px);
+    border-color: rgba(1, 86, 211, 0.4);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.studio-card h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--accent-primary);
+    margin-bottom: 0.25rem;
+}
+
+.studio-address {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin: 0;
+}
+
+.studio-phone {
+    margin: 0;
+}
+
+.studio-phone a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.studio-phone a:hover {
+    color: var(--accent-primary);
+}
+
+.studio-services {
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+    margin: 0.75rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.studio-services li {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.studio-services li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--accent-primary);
+    font-weight: 700;
+}
+
+.studio-card .detail-cta {
+    margin-top: 0.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+/* Services Strip — icon + label layout */
+.services-strip {
+    padding: 5rem 2rem;
+    background: var(--dark-secondary);
+    text-align: center;
+}
+
+/* Horizontal row, scrollable on mobile */
+.services-row {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-snap-type: x mandatory;
+    padding: 1rem 0 0.5rem; /* top padding gives circles room to lift on hover without clipping */
+}
+
+.services-row::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .services-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        overflow-x: visible;
+        gap: 2.5rem 1.5rem;
+        justify-items: center;
+    }
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    cursor: default;
+}
+
+/* Dark circle container */
+.service-circle {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover .service-circle {
+    background: var(--accent-primary);
+    transform: translateY(-6px) scale(1.08);
+    box-shadow: 0 12px 32px rgba(43, 139, 255, 0.45);
+}
+
+/* Icon image inside circle */
+.service-circle img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    /* invert to white so any dark icon shows on dark circle */
+    filter: brightness(0) invert(1);
+}
+
+/* Underlined label below each icon */
+.service-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--text-primary);
+    text-decoration: none;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Hero location info (studio pages) */
+.hero-location {
+    margin-bottom: 1.5rem;
+}
+
+.hero-location p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hero-location a {
+    color: var(--accent-primary);
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.hero-location a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .studio-chooser {
+        padding: 4rem 0;
+    }
+
+    .studio-grid {
+        grid-template-columns: 1fr;
     }
 }
 
