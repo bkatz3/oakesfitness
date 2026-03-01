@@ -83,6 +83,26 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
+// Sticky Mobile CTA — shows when the hero section scrolls out of view
+const stickyCta = document.getElementById('stickyCta');
+const heroSection = document.getElementById('hero');
+
+if (stickyCta && heroSection) {
+    const heroObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Hero is visible — hide the bar
+                stickyCta.classList.remove('visible');
+            } else {
+                // Hero is gone — slide the bar up
+                stickyCta.classList.add('visible');
+            }
+        });
+    }, { threshold: 0 });
+
+    heroObserver.observe(heroSection);
+}
+
 // Smooth scroll offset for fixed nav (optional enhancement)
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

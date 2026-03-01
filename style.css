@@ -1644,3 +1644,50 @@ body {
     line-height: 1.7;
     margin: 0;
 }
+
+/* ─── Sticky Mobile CTA ──────────────────────────────────────────────────── */
+/* Hidden on desktop — only activates on mobile */
+.sticky-mobile-cta {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .sticky-mobile-cta {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 998; /* below nav (1000) but above everything else */
+        background: var(--accent-primary);
+        color: var(--text-primary);
+        text-align: center;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: 0.3px;
+
+        /* Standard padding + iOS safe-area for the home indicator */
+        padding: 1rem 1.5rem;
+        padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+
+        /* Slide up from off-screen */
+        transform: translateY(100%);
+        opacity: 0;
+        transition: transform 0.35s ease, opacity 0.35s ease;
+
+        /* Subtle shadow to lift it off the page */
+        box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Visible state — toggled by JS */
+    .sticky-mobile-cta.visible {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    /* Add bottom padding to the footer so it doesn't get clipped behind the bar */
+    footer.footer {
+        padding-bottom: calc(5rem + env(safe-area-inset-bottom));
+    }
+}
