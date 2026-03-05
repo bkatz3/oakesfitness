@@ -102,7 +102,7 @@ These build authority on fitness topics for the 50+ population. No forced geogra
 
 ### Bone Health and Osteoporosis
 
-61. 🟢 How Strength Training Builds Bone Density After 50
+61. ✅ Written (2026-03-05) How Strength Training Builds Bone Density After 50
 62. 🟢 Best Exercises for Osteoporosis Prevention After 50
 63. 🟢 Can You Reverse Bone Loss With Exercise After 50?
 64. 🟢 Weight-Bearing Exercise After 50: What Counts and What Doesn't
