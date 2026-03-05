@@ -46,7 +46,7 @@ Most adults over 50 with desk-related back pain see noticeable improvement withi
 
 Hormonal factors can extend the timeline. Post-menopausal estrogen decline affects connective tissue quality and increases inflammatory sensitivity. Low testosterone in men over 50 reduces the rate of muscle repair. Neither of these stops the exercises from working, but both may slow the initial response.
 
-If back pain has persisted for more than six months and targeted exercise hasn't helped, the pattern may be more specific than desk work alone. Disc herniation, SI joint dysfunction, and spinal stenosis each need different approaches, and they can't be reliably distinguished without an in-person assessment. A [free consultation](https://oakesfitness.com/contact.html) is the right move at that point.
+If back pain has persisted for more than six months and targeted exercise hasn't helped, the pattern may be more specific than desk work alone. Disc herniation, SI joint dysfunction, and spinal stenosis each need different approaches, and they can't be reliably distinguished without an in-person assessment. A [free 360-degree body audit](https://oakesfitness.com/contact.html) is the right move at that point.
 
 At Oakes Fitness, lower back pain is one of the most common issues new clients over 50 bring in on day one. We assess the movement pattern, identify what's weak or restricted, and build a program around correcting it.
 

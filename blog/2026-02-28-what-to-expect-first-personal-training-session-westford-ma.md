@@ -73,7 +73,7 @@ A few things to watch after a first session:
 
 A good trainer in the Chelmsford and Westford area will offer a free or low-cost consultation before you commit to anything. Take them up on it. The relationship works better when both sides know what they are signing up for.
 
-If you are ready to get started, Oakes Fitness offers a free consultation with no hard sell and no pre-designed plan waiting for you. Just a conversation about where you are and what you are working toward.
+If you are ready to get started, Oakes Fitness offers a free 360-degree body audit with no hard sell and no pre-designed plan waiting for you. Just a conversation about where you are and what you are working toward.
 
 ## Key Takeaways
 
@@ -81,7 +81,7 @@ If you are ready to get started, Oakes Fitness offers a free consultation with n
 - Bring honest information about your injury history, schedule, and current fitness level. Accurate intake leads to better programming.
 - You should leave the first session knowing your starting point and what your first few weeks of training will look like.
 - Red flags include cookie-cutter programming, pressure to buy packages upfront, and skipping movement screening before loading weight.
-- A good personal trainer in Westford will offer a free consultation before asking for any commitment.
+- A good personal trainer in Westford will offer a free 360-degree body audit before asking for any commitment.
 
 ---
 
