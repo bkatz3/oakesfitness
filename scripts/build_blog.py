@@ -216,7 +216,7 @@ NAV = """\
                     <a href="tel:978-277-6300" class="phone-link">Westford: 978-277-6300</a>
                     <a href="tel:978-680-5069" class="phone-link">Concord: 978-680-5069</a>
                 </div>
-                <a href="/contact" class="cta-button">Get a Free 360-Degree Body Audit</a>
+                <a href="/contact" class="cta-button">Get a Free 360° Body Audit</a>
             </div>
             <button class="nav-toggle" id="navToggle">
                 <span></span>

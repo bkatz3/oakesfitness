@@ -7,7 +7,7 @@ Oakes Fitness offers one-on-one personal training, women's group classes, and yo
 ## Pages
 
 - [Home](https://oakesfitness.com/): Overview of services, client testimonials, and studio information
-- [Contact / Free 360-Degree Body Audit](https://oakesfitness.com/contact.html): Contact form to get started with a free 360-degree body audit
+- [Contact / Free 360° Body Audit](https://oakesfitness.com/contact.html): Contact form to get started with a free 360° body audit
 
 ## Services
 

@@ -43,7 +43,7 @@ Here's how exercise types compare for bone stimulus:
 | Cycling | Very low | Minimal |
 | Swimming | Very low | Minimal |
 
-One client in her late 50s came to Oakes Fitness after a DEXA scan flagged low femoral neck BMD. Her doctor had recommended "weight-bearing exercise" but hadn't specified what that meant in practice. After 18 months of structured strength training, her follow-up scan showed measurable improvement. Her doctor noted it. If you're in a similar situation, a [free 360-degree body audit](https://oakesfitness.com/contact.html) is a reasonable first step.
+One client in her late 50s came to Oakes Fitness after a DEXA scan flagged low femoral neck BMD. Her doctor had recommended "weight-bearing exercise" but hadn't specified what that meant in practice. After 18 months of structured strength training, her follow-up scan showed measurable improvement. Her doctor noted it. If you're in a similar situation, a [free 360° body audit](https://oakesfitness.com/contact.html) is a reasonable first step.
 
 Calcium and vitamin D remain important. They supply the raw materials for bone formation, but they're passive inputs. Mechanical loading is what signals the body to use them. For the dietary side of the equation, [How Much Protein Do You Need After 50 to Build Muscle?](https://oakesfitness.com/blog/how-much-protein-do-you-need-after-50-to-build-muscle) covers protein targets in detail.
 

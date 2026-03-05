@@ -74,7 +74,7 @@ Compare that to the alternative: years of gym memberships, failed attempts, inju
 
 If budget is a constraint, consider starting with twice-weekly sessions for three months, then dropping to once weekly for maintenance. This hybrid approach costs less than daily group fitness classes while providing the individualized attention your 50+ body needs.
 
-Ready to stop guessing and start seeing real results? [Contact Oakes Fitness](contact.html) for a free 360-degree body audit to discuss your specific goals and how our programming approach works for adults over 50.
+Ready to stop guessing and start seeing real results? [Contact Oakes Fitness](contact.html) for a free 360° body audit to discuss your specific goals and how our programming approach works for adults over 50.
 
 ## Key Takeaways
 
