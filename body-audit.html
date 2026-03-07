@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 360° Body Audit™ | Free Fitness Assessment | Oakes Fitness</title>
+    <meta name="description" content="The Oakes Fitness 360° Body Audit is a free 7-part evaluation that tells you exactly where you are — and what it will take to get where you want to go.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://oakesfitness.com/body-audit">
+    <meta property="og:title" content="The 360° Body Audit™ | Free Fitness Assessment | Oakes Fitness">
+    <meta property="og:description" content="A free 7-part evaluation that tells you exactly where you are — and what it will take to get where you want to go.">
+    <meta property="og:image" content="https://oakesfitness.com/images/oakes_logo.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://oakesfitness.com/body-audit">
+    <meta property="twitter:title" content="The 360° Body Audit™ | Free Fitness Assessment | Oakes Fitness">
+    <meta property="twitter:description" content="A free 7-part evaluation that tells you exactly where you are — and what it will take to get where you want to go.">
+    <meta property="twitter:image" content="https://oakesfitness.com/images/oakes_logo.jpg">
+
+    <!-- Favicons and Icons -->
+    <link rel="icon" type="image/png" href="images/oakes_logo_no_bg.png">
+    <link rel="apple-touch-icon" href="images/oakes_logo.jpg">
+    <link rel="shortcut icon" href="images/oakes_logo.jpg">
+    <meta name="apple-mobile-web-app-title" content="Oakes Fitness">
+    <meta name="application-name" content="Oakes Fitness">
+    <meta name="theme-color" content="#2B8BFF">
+
+    <link rel="canonical" href="https://oakesfitness.com/body-audit">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WC2743QC');</script>
+    <!-- End Google Tag Manager -->
+    <script src="/analytics.js"></script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://oakesfitness.com/body-audit",
+      "name": "The 360° Body Audit™",
+      "description": "A free 7-part fitness evaluation from Oakes Fitness that assesses posture, movement, body composition, cardiovascular fitness, strength, flexibility, and lifestyle — then builds a plan around the results.",
+      "url": "https://oakesfitness.com/body-audit",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Oakes Fitness",
+        "url": "https://oakesfitness.com"
+      }
+    }
+    </script>
+
+    <style>
+        /* ── Page-specific styles for body-audit.html ── */
+
+        .audit-hero {
+            padding: 7rem 0 4rem;
+            background: var(--dark-bg);
+            text-align: center;
+        }
+
+        .audit-hero-eyebrow {
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--accent-primary);
+            margin-bottom: 1rem;
+        }
+
+        .audit-hero h1 {
+            font-size: clamp(2rem, 5vw, 3.25rem);
+            font-weight: 900;
+            line-height: 1.15;
+            margin-bottom: 1.25rem;
+            background: linear-gradient(135deg, #fff 0%, #9cc5ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .audit-hero p {
+            font-size: clamp(1rem, 2vw, 1.2rem);
+            color: var(--text-secondary);
+            max-width: 620px;
+            margin: 0 auto 2rem;
+            line-height: 1.7;
+        }
+
+        /* ── Section intro ── */
+        .audit-intro {
+            padding: 4rem 0 2rem;
+            background: var(--dark-bg);
+        }
+
+        .audit-intro-inner {
+            max-width: 720px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .audit-intro-inner h2 {
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .audit-intro-inner p {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            line-height: 1.75;
+        }
+
+        /* ── 7-part grid ── */
+        .audit-sections {
+            padding: 3rem 0 5rem;
+            background: var(--dark-bg);
+        }
+
+        .audit-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .audit-card {
+            background: rgba(26, 26, 26, 0.6);
+            border: 1px solid rgba(1, 86, 211, 0.2);
+            border-radius: 12px;
+            padding: 2rem;
+            transition: border-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .audit-card:hover {
+            border-color: rgba(43, 139, 255, 0.5);
+            transform: translateY(-3px);
+        }
+
+        .audit-card-number {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--accent-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .audit-card h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.75rem;
+        }
+
+        .audit-card p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* ── CTA section ── */
+        .audit-cta {
+            padding: 5rem 0;
+            background: rgba(43, 139, 255, 0.05);
+            border-top: 1px solid rgba(43, 139, 255, 0.15);
+            text-align: center;
+        }
+
+        .audit-cta h2 {
+            font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+
+        .audit-cta p {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            max-width: 540px;
+            margin: 0 auto 2rem;
+            line-height: 1.7;
+        }
+
+        .audit-cta .hero-cta {
+            display: inline-block;
+        }
+
+        @media (max-width: 768px) {
+            .audit-hero {
+                padding: 6rem 1.5rem 3rem;
+            }
+
+            .audit-intro {
+                padding: 3rem 1.5rem 1.5rem;
+            }
+
+            .audit-sections {
+                padding: 2rem 1.5rem 4rem;
+            }
+
+            .audit-cta {
+                padding: 4rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WC2743QC"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="/" style="text-decoration: none; color: inherit;"><span class="logo-text">OAKES<span class="logo-accent">FITNESS</span></span></a>
+            </div>
+            <div class="nav-links">
+                <a href="/" class="mobile-only">Home</a>
+                <a href="/westford">Westford</a>
+                <a href="/concord">Concord</a>
+                <a href="/body-audit">360° Body Audit</a>
+                <a href="/contact" class="cta-button">Get a Free 360° Body Audit</a>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+
+    <!-- Hero -->
+    <section class="audit-hero">
+        <div class="container">
+            <p class="audit-hero-eyebrow">Free for new clients</p>
+            <h1>The 360° Body Audit™</h1>
+            <p>Most people start a training program without ever figuring out what's actually going on in their body. We fix that first. The 360° Body Audit is a 7-part evaluation that tells you exactly where you are — and builds a plan around what you find.</p>
+            <a href="/contact" class="hero-cta">Book Your Free Audit</a>
+        </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="audit-intro">
+        <div class="container">
+            <div class="audit-intro-inner reveal">
+                <h2>25+ years of coaching taught us one thing: the diagnosis matters as much as the training.</h2>
+                <p>Generic programs fail because they ignore the individual. The 360° Body Audit removes the guesswork. We look at seven dimensions of your health and fitness — then use what we find to build a program that fits your body, your life, and your goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7-Part Audit Grid -->
+    <section class="audit-sections">
+        <div class="container">
+            <div class="audit-grid">
+
+                <!-- Part 1 -->
+                <div class="audit-card reveal">
+                    <p class="audit-card-number">Part 01</p>
+                    <h3>Posture &amp; Alignment</h3>
+                    <p>We assess how you hold yourself at rest — head position, shoulder alignment, spinal curves, hip tilt. Postural imbalances are one of the most common hidden drivers of pain and injury, especially after 50. Finding them early means correcting them before they become a problem.</p>
+                </div>
+
+                <!-- Part 2 -->
+                <div class="audit-card reveal">
+                    <p class="audit-card-number">Part 02</p>
+                    <h3>Movement Screen</h3>
+                    <p>We watch you move through fundamental patterns — squat, hinge, push, pull, carry. This reveals compensations, weak links, and mobility restrictions that standard strength testing misses entirely. Everything we program after this is filtered through what we see here.</p>
+                </div>
+
+                <!-- Part 3 -->
+                <div class="audit-card reveal">
+                    <p class="audit-card-number">Part 03</p>
+                    <h3>Body Composition</h3>
+                    <p>Scale weight tells you almost nothing useful on its own. We look at lean mass vs. body fat, and how that ratio has shifted over time. This gives us a real baseline to measure progress against — not just a number that goes up and down with water retention.</p>
+                </div>
+
+                <!-- Part 4 -->
+                <div class="audit-card reveal">
+                    <p class="audit-card-number">Part 04</p>
+                    <h3>Cardiovascular Fitness</h3>
+                    <p>We gauge where your aerobic capacity sits right now — not to run you through a grueling fitness test, but to understand your recovery, your energy, and how your heart handles work. This shapes how we structure sessions and how we build intensity over time.</p>
+                </div>
+
+                <!-- Part 5 -->
+                <div class="audit-card reveal">
+                    <p class="audit-card-number">Part 05</p>
+                    <h3>Strength Baseline</h3>
+                    <p>We test functional strength across key movement patterns — how much force you can produce, and how well you can control it. This isn't about maxing out a barbell. It's about knowing where you actually are so we can set targets that are challenging but achievable.</p>
+                </div>
+
+                <!-- Part 6 -->
+                <div class="audit-card reveal">
+                    <p class="audit-card-number">Part 06</p>
+                    <h3>Flexibility &amp; Mobility</h3>
+                    <p>Tight hips, stiff thoracic spine, limited ankle mobility — these are the things that quietly limit your training and your quality of life. We identify which restrictions matter most for your goals and address them directly in your program, not as an afterthought.</p>
+                </div>
+
+                <!-- Part 7 -->
+                <div class="audit-card reveal">
+                    <p class="audit-card-number">Part 07</p>
+                    <h3>Lifestyle &amp; Goals</h3>
+                    <p>Training doesn't happen in a vacuum. We talk about your sleep, your stress, your schedule, your history with exercise, and — most importantly — what you actually want. The program we build has to fit your real life, or it won't stick. This is how we make sure it does.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="audit-cta">
+        <div class="container">
+            <h2>Ready to see what your body is actually telling you?</h2>
+            <p>The 360° Body Audit is free for all new clients. No commitment, no hard sell — just an honest look at where you are and a plan to get you where you want to go.</p>
+            <a href="/contact" class="hero-cta">Book Your Free 360° Body Audit</a>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-text">OAKES<span class="logo-accent">FITNESS</span></span>
+                    </div>
+                    <p class="footer-tagline">Best Personal Training Gyms in Westford &amp; Concord</p>
+                </div>
+                <div class="footer-locations">
+                    <div class="location">
+                        <h4>Westford Studio</h4>
+                        <p>334 Littleton Road<br>Westford, MA 01886</p>
+                        <a href="tel:978-277-6300">978-277-6300</a>
+                    </div>
+                    <div class="location">
+                        <h4>Concord Studio</h4>
+                        <p>97a Thoreau Street<br>Concord, MA 01742</p>
+                        <a href="tel:978-680-5069">978-680-5069</a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get In Touch</h4>
+                    <a href="mailto:oakesfitness1@gmail.com">oakesfitness1@gmail.com</a>
+                    <a href="/blog">Blog</a>
+                    <p class="footer-serving">Serving Concord, Westford, Bedford, Carlisle, Littleton, Acton &amp; surrounding communities</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Oakes Fitness. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky mobile CTA — slides up after hero scrolls out of view -->
+    <a href="/contact" class="sticky-mobile-cta" id="stickyCta">Get Your Free 360° Body Audit</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
