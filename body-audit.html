@@ -121,50 +121,103 @@
             line-height: 1.75;
         }
 
-        /* ── 7-part grid ── */
+        /* ── 7-part timeline ── */
         .audit-sections {
             padding: 3rem 0 5rem;
             background: var(--dark-bg);
+            overflow-x: hidden; /* prevent timeline layout from causing page-wide horizontal scroll */
         }
 
-        .audit-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
-            max-width: 1100px;
+        .audit-timeline {
+            position: relative;
+            max-width: 900px;
             margin: 0 auto;
+            padding: 1rem 0 2rem;
         }
 
-        .audit-card {
+        /* Vertical center line */
+        .audit-timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(
+                to bottom,
+                transparent,
+                rgba(43, 139, 255, 0.35) 4%,
+                rgba(43, 139, 255, 0.35) 96%,
+                transparent
+            );
+            transform: translateX(-50%);
+        }
+
+        /* Each step row */
+        .audit-step {
+            display: flex;
+            justify-content: flex-end; /* content on left by default */
+            padding-right: calc(50% + 3rem);
+            margin-bottom: 3.5rem;
+            position: relative;
+        }
+
+        .audit-step:nth-child(even) {
+            justify-content: flex-start;
+            padding-right: 0;
+            padding-left: calc(50% + 3rem);
+        }
+
+        /* Numbered dot on the line */
+        .audit-step-dot {
+            position: absolute;
+            left: 50%;
+            top: 0.5rem;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--dark-bg);
+            border: 2px solid rgba(43, 139, 255, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            font-weight: 800;
+            letter-spacing: 0.05em;
+            color: var(--accent-primary);
+            z-index: 1;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .audit-step:hover .audit-step-dot {
+            border-color: rgba(43, 139, 255, 0.9);
+            box-shadow: 0 0 16px rgba(43, 139, 255, 0.3);
+        }
+
+        /* Content card */
+        .audit-step-content {
             background: rgba(26, 26, 26, 0.6);
             border: 1px solid rgba(1, 86, 211, 0.2);
             border-radius: 12px;
-            padding: 2rem;
+            padding: 1.75rem 2rem;
+            max-width: 380px;
             transition: border-color 0.3s ease, transform 0.3s ease;
         }
 
-        .audit-card:hover {
+        .audit-step:hover .audit-step-content {
             border-color: rgba(43, 139, 255, 0.5);
-            transform: translateY(-3px);
+            transform: translateY(-2px);
         }
 
-        .audit-card-number {
-            font-size: 0.75rem;
-            font-weight: 700;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--accent-primary);
-            margin-bottom: 0.5rem;
-        }
-
-        .audit-card h3 {
-            font-size: 1.2rem;
+        .audit-step-content h3 {
+            font-size: 1.15rem;
             font-weight: 700;
             color: var(--text-primary);
-            margin-bottom: 0.75rem;
+            margin-bottom: 0.6rem;
         }
 
-        .audit-card p {
+        .audit-step-content p {
             font-size: 0.95rem;
             color: var(--text-secondary);
             line-height: 1.7;
@@ -202,6 +255,14 @@
                 padding: 6rem 1.5rem 3rem;
             }
 
+            /* Stack and center all hero content on mobile */
+            .audit-hero .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
             .audit-intro {
                 padding: 3rem 1.5rem 1.5rem;
             }
@@ -212,6 +273,30 @@
 
             .audit-cta {
                 padding: 4rem 1.5rem;
+            }
+
+            /* Collapse to left-side single column */
+            .audit-timeline::before {
+                left: 22px;
+                transform: none;
+            }
+
+            .audit-step,
+            .audit-step:nth-child(even) {
+                justify-content: flex-start;
+                padding-left: 4rem;
+                padding-right: 0;
+            }
+
+            .audit-step-dot {
+                left: 22px;
+                width: 44px;
+                height: 44px;
+            }
+
+            .audit-step-content {
+                max-width: 100%;
+                width: 100%;
             }
         }
     </style>
@@ -250,7 +335,7 @@
         <div class="container">
             <p class="audit-hero-eyebrow">Free for new clients</p>
             <h1>The 360° Body Audit™</h1>
-            <p>Most people start a training program without ever figuring out what's actually going on in their body. We fix that first. The 360° Body Audit is a 7-part evaluation that tells you exactly where you are — and builds a plan around what you find.</p>
+            <p>Most people start a training program before they've figured out what's actually going on in their body. We fix that first. The 360° Body Audit is a 7-part evaluation that tells you exactly where you are, and builds a plan around what we find.</p>
             <a href="/contact" class="hero-cta">Book Your Free Audit</a>
         </div>
     </section>
@@ -259,64 +344,78 @@
     <section class="audit-intro">
         <div class="container">
             <div class="audit-intro-inner reveal">
-                <h2>25+ years of coaching taught us one thing: the diagnosis matters as much as the training.</h2>
-                <p>Generic programs fail because they ignore the individual. The 360° Body Audit removes the guesswork. We look at seven dimensions of your health and fitness — then use what we find to build a program that fits your body, your life, and your goals.</p>
+                <h2>After 25 years of coaching, here's what we know: the assessment matters as much as the training.</h2>
+                <p>Generic programs fail because they skip the individual. The 360° Body Audit removes the guesswork. We look at seven dimensions of your health and fitness, then use what we find to build something that actually fits you.</p>
             </div>
         </div>
     </section>
 
-    <!-- 7-Part Audit Grid -->
+    <!-- 7-Part Audit Timeline -->
     <section class="audit-sections">
         <div class="container">
-            <div class="audit-grid">
+            <div class="audit-timeline">
 
                 <!-- Part 1 -->
-                <div class="audit-card reveal">
-                    <p class="audit-card-number">Part 01</p>
-                    <h3>Posture &amp; Alignment</h3>
-                    <p>We assess how you hold yourself at rest — head position, shoulder alignment, spinal curves, hip tilt. Postural imbalances are one of the most common hidden drivers of pain and injury, especially after 50. Finding them early means correcting them before they become a problem.</p>
+                <div class="audit-step reveal">
+                    <div class="audit-step-dot">01</div>
+                    <div class="audit-step-content">
+                        <h3>Posture &amp; Alignment</h3>
+                        <p>We look at how you hold yourself at rest: head position, shoulder alignment, spinal curves, hip tilt. Bad posture is one of the most common hidden drivers of pain and injury after 50. Catching it early means fixing it before it becomes a real problem.</p>
+                    </div>
                 </div>
 
                 <!-- Part 2 -->
-                <div class="audit-card reveal">
-                    <p class="audit-card-number">Part 02</p>
-                    <h3>Movement Screen</h3>
-                    <p>We watch you move through fundamental patterns — squat, hinge, push, pull, carry. This reveals compensations, weak links, and mobility restrictions that standard strength testing misses entirely. Everything we program after this is filtered through what we see here.</p>
+                <div class="audit-step reveal">
+                    <div class="audit-step-dot">02</div>
+                    <div class="audit-step-content">
+                        <h3>Movement Screen</h3>
+                        <p>We watch you move through the basics: squat, hinge, push, pull, carry. This shows us the compensations and weak links that standard strength testing misses. Everything we build after this gets filtered through what we see here.</p>
+                    </div>
                 </div>
 
                 <!-- Part 3 -->
-                <div class="audit-card reveal">
-                    <p class="audit-card-number">Part 03</p>
-                    <h3>Body Composition</h3>
-                    <p>Scale weight tells you almost nothing useful on its own. We look at lean mass vs. body fat, and how that ratio has shifted over time. This gives us a real baseline to measure progress against — not just a number that goes up and down with water retention.</p>
+                <div class="audit-step reveal">
+                    <div class="audit-step-dot">03</div>
+                    <div class="audit-step-content">
+                        <h3>Body Composition</h3>
+                        <p>Scale weight is almost useless on its own. We look at lean mass versus body fat and how that ratio has shifted over time. That gives us a real baseline to track progress against, not just a number that bounces around with water weight.</p>
+                    </div>
                 </div>
 
                 <!-- Part 4 -->
-                <div class="audit-card reveal">
-                    <p class="audit-card-number">Part 04</p>
-                    <h3>Cardiovascular Fitness</h3>
-                    <p>We gauge where your aerobic capacity sits right now — not to run you through a grueling fitness test, but to understand your recovery, your energy, and how your heart handles work. This shapes how we structure sessions and how we build intensity over time.</p>
+                <div class="audit-step reveal">
+                    <div class="audit-step-dot">04</div>
+                    <div class="audit-step-content">
+                        <h3>Cardiovascular Fitness</h3>
+                        <p>We get a read on your aerobic capacity. Not a grueling test, just enough to understand your recovery time, your energy levels, and how your heart handles sustained effort. That shapes how we structure sessions and how fast we ramp things up.</p>
+                    </div>
                 </div>
 
                 <!-- Part 5 -->
-                <div class="audit-card reveal">
-                    <p class="audit-card-number">Part 05</p>
-                    <h3>Strength Baseline</h3>
-                    <p>We test functional strength across key movement patterns — how much force you can produce, and how well you can control it. This isn't about maxing out a barbell. It's about knowing where you actually are so we can set targets that are challenging but achievable.</p>
+                <div class="audit-step reveal">
+                    <div class="audit-step-dot">05</div>
+                    <div class="audit-step-content">
+                        <h3>Strength Baseline</h3>
+                        <p>We test functional strength across key movement patterns: how much force you can produce and how well you can control it. Nothing extreme. The goal is knowing where you actually stand so the targets we set are real, not arbitrary.</p>
+                    </div>
                 </div>
 
                 <!-- Part 6 -->
-                <div class="audit-card reveal">
-                    <p class="audit-card-number">Part 06</p>
-                    <h3>Flexibility &amp; Mobility</h3>
-                    <p>Tight hips, stiff thoracic spine, limited ankle mobility — these are the things that quietly limit your training and your quality of life. We identify which restrictions matter most for your goals and address them directly in your program, not as an afterthought.</p>
+                <div class="audit-step reveal">
+                    <div class="audit-step-dot">06</div>
+                    <div class="audit-step-content">
+                        <h3>Flexibility &amp; Mobility</h3>
+                        <p>Tight hips, a stiff thoracic spine, limited ankle mobility. These things quietly cap what you can do in training and in daily life. We figure out which restrictions matter most for your goals and build them into your program from day one, not as an add-on.</p>
+                    </div>
                 </div>
 
                 <!-- Part 7 -->
-                <div class="audit-card reveal">
-                    <p class="audit-card-number">Part 07</p>
-                    <h3>Lifestyle &amp; Goals</h3>
-                    <p>Training doesn't happen in a vacuum. We talk about your sleep, your stress, your schedule, your history with exercise, and — most importantly — what you actually want. The program we build has to fit your real life, or it won't stick. This is how we make sure it does.</p>
+                <div class="audit-step reveal">
+                    <div class="audit-step-dot">07</div>
+                    <div class="audit-step-content">
+                        <h3>Lifestyle &amp; Goals</h3>
+                        <p>We talk about your sleep, your stress, your schedule, your history with exercise, and what you actually want out of this. A program that doesn't fit your life won't last. This conversation is how we make sure it will.</p>
+                    </div>
                 </div>
 
             </div>
@@ -326,9 +425,9 @@
     <!-- CTA -->
     <section class="audit-cta">
         <div class="container">
-            <h2>Ready to see what your body is actually telling you?</h2>
-            <p>The 360° Body Audit is free for all new clients. No commitment, no hard sell — just an honest look at where you are and a plan to get you where you want to go.</p>
-            <a href="/contact" class="hero-cta">Book Your Free 360° Body Audit</a>
+            <h2>Want to know what's actually going on?</h2>
+            <p>The 360° Body Audit is free for all new clients. No commitment or sales pitch, just an honest look at where you are and a clear plan for where you want to go.</p>
+            <a href="/contact" class="hero-cta">Book Your Free Audit</a>
         </div>
     </section>
 
