@@ -119,7 +119,7 @@ These build authority on fitness topics for the 50+ population. No forced geogra
 
 ### Cardio and Conditioning
 
-71. 🟢 Should You Do Cardio Before or After Lifting if You're Over 50?
+71. ✅ Written (2026-03-08) Should You Do Cardio Before or After Lifting if You're Over 50?
 72. 🟢 How Much Cardio Do You Actually Need After 50?
 73. 🟢 Walking vs. Running After 50: Which Is Better for Your Health?
 74. 🟢 Why Zone 2 Cardio Matters After 50
