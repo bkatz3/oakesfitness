@@ -145,7 +145,7 @@ These build authority on fitness topics for the 50+ population. No forced geogra
 
 ### Functional Fitness and Daily Life
 
-88. 🟢 What Is Functional Strength Training and Why Does It Matter After 50?
+88. ✅ Written (2026-03-16) What Is Functional Strength Training and Why Does It Matter After 50?
 89. 🟢 Exercises That Help You Stay Independent as You Age
 90. 🟢 How to Improve Balance After 50 (and Why It Matters More Than You Think)
 91. 🟢 Grip Strength After 50: Why It Predicts Your Health and How to Build It
