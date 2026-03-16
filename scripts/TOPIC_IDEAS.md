@@ -80,7 +80,7 @@ These build authority on fitness topics for the 50+ population. No forced geogra
 
 ### Recovery and Injury Prevention
 
-44. 🟢 How Long Should You Rest Between Workouts After 50?
+44. ✅ Written (2026-03-16) How Long Should You Rest Between Workouts After 50?
 45. ✅ Written (2026-02-25) How to Fix Lower Back Pain From Sitting All Day
 46. 🟢 Shoulder Pain When Lifting After 50: What to Modify and When to Stop
 47. 🟢 Knee Pain and Strength Training After 50: What You Can Still Do
