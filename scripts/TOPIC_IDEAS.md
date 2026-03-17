@@ -13,7 +13,7 @@ These target high-intent local searches. Every title includes a geographic modif
 ### Choosing a Trainer / Gym Selection
 
 1. ✅ Written (2026-02-22) How to Choose a Personal Trainer in Westford MA if You're Over 50
-2. 🟢 Best Gyms in Westford MA for Strength Training
+2. ✅ Written (2026-03-17) Best Gyms in Westford MA for Strength Training
 3. 🟢 Personal Training vs. Gym Membership: What's Actually Worth It in the Westford Area
 4. 🟢 What to Look for in a Personal Trainer if You Have Bad Knees or a Bad Back
 5. ✅ Written (2026-02-24) How Much Does a Personal Trainer Cost in Westford MA in 2026?
