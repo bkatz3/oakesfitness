@@ -36,7 +36,7 @@ These target high-intent local searches. Every title includes a geographic modif
 16. 🟢 Pickleball Is Everywhere in Westford: Here's How to Strength Train So You Don't Get Hurt Playing
 17. 🟢 How to Stay Consistent With Exercise Through a New England Summer
 18. 🟢 Fall Fitness Reset: How Adults in Westford Can Build a Routine That Sticks
-19. 🟢 New Year's Fitness Goals After 50: Why Most Westford Gym Members Quit by March (and How Not To)
+19. ✅ Written (2026-03-17) New Year's Fitness Goals After 50: Why Most Westford Gym Members Quit by March (and How Not To)
 
 ### Local Comparisons and Decisions
 
