@@ -111,7 +111,7 @@ These build authority on fitness topics for the 50+ population. No forced geogra
 
 ### Hormones and Aging
 
-66. 🟢 How Menopause Affects Muscle and What to Do About It
+66. ✅ Written (2026-03-18) How Menopause Affects Muscle and What to Do About It
 67. 🟢 Strength Training During and After Menopause: What Changes and What Doesn't
 68. 🟢 Low Testosterone After 50: How Strength Training Helps (and What It Can't Fix)
 69. 🟢 How Cortisol Affects Your Body After 50 (and Why Overtraining Makes It Worse)
