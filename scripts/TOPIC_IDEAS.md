@@ -87,7 +87,7 @@ These build authority on fitness topics for the 50+ population. No forced geogra
 48. 🟢 How to Train Around a Bad Back After 50
 49. 🟢 Why Your Joints Hurt More in Winter (and What to Do About It)
 50. 🟢 How to Prevent Tendinitis When Strength Training After 50
-51. 🟢 Should You Train Through Soreness After 50?
+51. ✅ Written (2026-03-19) Should You Be Sore After a Workout When You're Over 50?
 52. 🟢 How to Come Back to the Gym After an Injury if You're Over 50
 53. 🟢 Rotator Cuff Exercises for Adults Over 50 Who Lift Weights
 54. 🟢 How to Protect Your Knees While Squatting After 50
