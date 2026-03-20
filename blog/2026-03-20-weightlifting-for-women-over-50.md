@@ -1,11 +1,11 @@
 ---
-title: "Is Weightlifting Good for Women Over 50?"
+title: "The Importance of Weightlifting for Women"
 date: 2026-03-20
 author: "The Oakes Fitness Team"
 category: "Strength Training Fundamentals"
 ---
 
-# Is Weightlifting Good for Women Over 50?
+# The Importance of Weightlifting for Women
 
 *By The Oakes Fitness Team*
 
