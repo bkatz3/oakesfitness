@@ -55,6 +55,8 @@ These build authority on fitness topics for the 50+ population. No forced geogra
 
 ### Strength Training Fundamentals
 
+- ✅ Written (2026-03-20) Is Weightlifting Good for Women Over 50?
+
 25. ✅ Written (2026-02-22) How Often Should You Strength Train After 50?
 26. ✅ Written (2026-02-23) How to Build Muscle After 50 Without Wrecking Your Joints
 27. 🟢 Is It Too Late to Start Lifting Weights at 55 or 60?
