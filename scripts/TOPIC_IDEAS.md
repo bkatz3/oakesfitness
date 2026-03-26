@@ -194,6 +194,7 @@ These build authority on fitness topics for the 50+ population. No forced geogra
 ### Programming and Planning
 
 - ✅ Written (2026-03-24) When Do Home Workouts Stop Working After 50?
+- ✅ Written (2026-03-26) Personal Trainer vs. Online Workout Program: Which Is Actually Better?
 118. 🟢 How to Build a Weekly Workout Plan After 50
 119. 🟢 Why Periodization Matters After 50 (Even if You've Never Heard of It)
 120. 🟢 How to Deload: Why Planned Easy Weeks Make You Stronger After 50
