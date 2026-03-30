@@ -76,7 +76,7 @@ These build authority on fitness topics for the 50+ population. No forced geogra
 37. 🟢 How to Lose Belly Fat After 50 (What the Research Actually Says)
 38. 🟢 Why Crash Diets Are Especially Dangerous After 50
 39. 🟢 Strength Training vs. Cardio for Weight Loss After 50: What Burns More Fat?
-40. 🟢 How Many Calories Should You Eat if You're Strength Training After 50?
+40. ✅ Written (2026-03-30) How to Eat Enough Calories After 50 Without Gaining Fat
 41. 🟢 Why You Lose Muscle When You Diet After 50 (and How to Prevent It)
 42. 🟢 Intermittent Fasting After 50: Does It Actually Work?
 43. 🟢 Body Recomposition After 50: Can You Build Muscle and Lose Fat at the Same Time?
