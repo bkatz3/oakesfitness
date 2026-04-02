@@ -35,7 +35,7 @@
 ### Sleep & Recovery
 
 1. ✅ Written (2026-03-31) How Sleep Deprivation Kills Muscle Growth After 50
-2. 🟢 Why You Wake Up More at Night After 50 (and What It's Doing to Your Recovery)
+2. ✅ Written (2026-04-02) Why You Wake Up More at Night After 50 (and What It's Doing to Your Recovery)
 3. 🟢 How Alcohol Affects Muscle Recovery After 50
 
 ### Hormones & Physiology
