@@ -28,6 +28,7 @@
 - ✅ Written (2026-03-11) What Is Functional Strength Training and Why Does It Matter After 50?
 - ✅ Written (2026-03-24) When Do Home Workouts Stop Working After 50?
 - ✅ Written (2026-04-07) 3 Hard Pills Every New Trainer Needs to Swallow (If You Want to Last)
+- ✅ Written (2026-04-09) The Chameleon Coach: Why Your Ability to Talk Anything Might Be Your Biggest Fitness Skill
 
 ---
 
