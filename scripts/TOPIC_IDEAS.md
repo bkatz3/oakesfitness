@@ -45,7 +45,7 @@
 4. ✅ Written (2026-04-06) What Happens to Testosterone After 50 (and Why Lifting Helps)
 5. ✅ Written (2026-04-08) How Estrogen Loss Changes How You Build Muscle After Menopause
 6. ✅ Written (2026-04-13) Why Your Body Composition Changes After 50 Even If You Don't Change Anything
-7. 🟢 How Cortisol Wrecks Your Gains After 50 (and What to Do About It)
+7. ✅ Written (2026-04-14) How Cortisol Wrecks Your Gains After 50 (and What to Do About It)
 8. 🟢 Why Metabolism Slows After 50 and What Actually Fixes It
 
 ### Nutrition Science
