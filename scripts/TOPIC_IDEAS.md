@@ -52,7 +52,7 @@
 
 9. ✅ Written (2026-04-16) Why Protein Timing Matters More After 50
 10. ✅ Written (2026-04-21) Do You Need Creatine After 50? What the Research Actually Shows
-11. 🟢 Why Vitamin D Deficiency Kills Muscle Function After 50
+11. ✅ Written (2026-04-30) Why Vitamin D Deficiency Kills Muscle Function After 50
 12. 🟢 Intermittent Fasting After 50: What the Research Actually Says
 
 ### Muscle & Aging
