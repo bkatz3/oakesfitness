@@ -58,7 +58,7 @@
 ### Muscle & Aging
 
 13. ✅ Written (2026-05-04) What Is Sarcopenia and Why It Starts Earlier Than You Think
-14. 🟢 Why Muscle Fibers Change After 50 (and How to Train Around It)
+14. ✅ Written (2026-05-07) Why Muscle Fibers Change After 50 (and How to Train Around It)
 15. 🟢 Why You Lose Strength Faster Than Muscle After 50
 16. 🟢 How Long It Takes to Rebuild Lost Muscle After 50
 
