@@ -64,7 +64,7 @@
 
 ### Bone & Connective Tissue
 
-17. 🟢 Can You Actually Reverse Bone Loss With Exercise After 50?
+17. ✅ Written (2026-05-21) Can You Actually Reverse Bone Loss With Exercise After 50?
 18. 🟢 Why Tendons Age Differently Than Muscles (and What That Means for Training)
 
 ### Brain & Mental Health
