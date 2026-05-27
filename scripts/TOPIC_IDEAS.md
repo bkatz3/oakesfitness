@@ -65,7 +65,7 @@
 ### Bone & Connective Tissue
 
 17. ✅ Written (2026-05-21) Can You Actually Reverse Bone Loss With Exercise After 50?
-18. 🟢 Why Tendons Age Differently Than Muscles (and What That Means for Training)
+18. ✅ Written (2026-05-27) Why Tendons Age Differently Than Muscles (and What That Means for Training)
 
 ### Brain & Mental Health
 
