@@ -69,5 +69,5 @@
 
 ### Brain & Mental Health
 
-19. 🟢 How Strength Training Changes Your Brain After 50
+19. ✅ Written (2026-05-28) How Strength Training Changes Your Brain After 50
 20. 🟢 The Link Between Muscle Mass and Dementia Risk After 50
