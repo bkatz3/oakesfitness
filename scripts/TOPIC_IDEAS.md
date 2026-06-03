@@ -30,6 +30,7 @@
 - ✅ Written (2026-04-07) 3 Hard Pills Every New Trainer Needs to Swallow (If You Want to Last)
 - ✅ Written (2026-04-09) The Chameleon Coach: Why Your Ability to Talk Anything Might Be Your Biggest Fitness Skill
 - ✅ Written (2026-06-02) How to Squat Without Knee Pain After 50
+- ✅ Written (2026-06-03) Why Grip Strength Predicts How Long You'll Live After 50
 
 ---
 
