@@ -8,6 +8,7 @@
 
 ## Already Written
 
+- ✅ Written (2026-06-09) 5 Underrated Mobility Exercises for Adults Over 50
 - ✅ Written (2026-02-22) How to Choose a Personal Trainer in Westford MA if You're Over 50
 - ✅ Written (2026-02-24) How Much Does a Personal Trainer Cost in Westford MA in 2026?
 - ✅ Written (2026-02-28) What to Expect at Your First Personal Training Session in Westford MA
