@@ -32,6 +32,7 @@
 - ✅ Written (2026-04-09) The Chameleon Coach: Why Your Ability to Talk Anything Might Be Your Biggest Fitness Skill
 - ✅ Written (2026-06-02) How to Squat Without Knee Pain After 50
 - ✅ Written (2026-06-03) Why Grip Strength Predicts How Long You'll Live After 50
+- ✅ Written (2026-06-10) Strength Training for Pickleball Players Over 50: How to Play Without Getting Hurt
 
 ---
 
