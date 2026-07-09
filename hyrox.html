@@ -68,9 +68,31 @@
         /* ── Page-specific styles for hyrox.html ── */
 
         .hyrox-hero {
-            padding: 7rem 0 4rem;
-            background: var(--dark-bg);
+            position: relative;
+            padding: 10rem 0 7rem;
             text-align: center;
+            background-color: var(--dark-bg);
+            background-position: center 35%; /* keep the starting line, not the ceiling, in frame */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        /* Two declarations: the first is the universal JPEG fallback, the second
+           upgrades to WebP on browsers that understand image-set() and ignore it otherwise.
+           The gradient darkens the photo so the nav and hero copy stay legible, and fades
+           the bottom edge into the page background. */
+        .hyrox-hero {
+            background-image:
+                linear-gradient(180deg, rgba(10, 10, 10, 0.92) 0%, rgba(10, 10, 10, 0.62) 45%, rgba(10, 10, 10, 0.99) 100%),
+                url('images/hyrox-hero.jpg');
+            background-image:
+                linear-gradient(180deg, rgba(10, 10, 10, 0.92) 0%, rgba(10, 10, 10, 0.62) 45%, rgba(10, 10, 10, 0.99) 100%),
+                image-set(url('images/hyrox-hero.webp') type('image/webp'), url('images/hyrox-hero.jpg') type('image/jpeg'));
+        }
+
+        .hyrox-hero .container {
+            position: relative;
+            z-index: 1;
         }
 
         .hyrox-hero-eyebrow {
@@ -80,6 +102,7 @@
             text-transform: uppercase;
             color: var(--accent-primary);
             margin-bottom: 1rem;
+            text-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
         }
 
         .hyrox-hero h1 {
@@ -91,14 +114,17 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            /* text-shadow would bleed through the transparent fill, so shadow the element */
+            filter: drop-shadow(0 2px 14px rgba(0, 0, 0, 0.7));
         }
 
         .hyrox-hero p {
             font-size: clamp(1rem, 2vw, 1.2rem);
-            color: var(--text-secondary);
+            color: #d6d6d6; /* lifted from --text-secondary for contrast over the photo */
             max-width: 620px;
             margin: 0 auto 2rem;
             line-height: 1.7;
+            text-shadow: 0 1px 10px rgba(0, 0, 0, 0.85);
         }
 
         /* ── Intro ── */
@@ -268,7 +294,17 @@
 
         @media (max-width: 768px) {
             .hyrox-hero {
-                padding: 6rem 1.5rem 3rem;
+                padding: 8rem 1.5rem 5rem;
+            }
+
+            /* Serve the 768px-wide crop instead of the full desktop image */
+            .hyrox-hero {
+                background-image:
+                    linear-gradient(180deg, rgba(10, 10, 10, 0.92) 0%, rgba(10, 10, 10, 0.65) 45%, rgba(10, 10, 10, 0.99) 100%),
+                    url('images/hyrox-hero-mobile.jpg');
+                background-image:
+                    linear-gradient(180deg, rgba(10, 10, 10, 0.92) 0%, rgba(10, 10, 10, 0.65) 45%, rgba(10, 10, 10, 0.99) 100%),
+                    image-set(url('images/hyrox-hero-mobile.webp') type('image/webp'), url('images/hyrox-hero-mobile.jpg') type('image/jpeg'));
             }
 
             /* Stack and center all hero content on mobile */
