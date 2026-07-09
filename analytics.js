@@ -22,7 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
   function getLocation(el) {
     if (el.id === 'stickyCta')      return 'sticky';
     if (el.closest('nav'))          return 'nav';
-    if (el.closest('.hero'))        return 'hero';
+    // Match the id too: page-specific heroes (.hyrox-hero, .audit-hero) don't carry .hero
+    if (el.closest('#hero, .hero')) return 'hero';
     if (el.closest('footer'))       return 'footer';
     return 'section'; // service cards, bottom CTA block, blog inline CTAs
   }

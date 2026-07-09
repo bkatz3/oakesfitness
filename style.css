@@ -90,6 +90,9 @@ body {
     font-weight: 500;
     font-size: 0.95rem;
     transition: color 0.3s ease;
+    /* Labels like "360° Body Audit" would otherwise break onto a second line as
+       the nav tightens, growing the fixed nav and pushing it over page content. */
+    white-space: nowrap;
 }
 
 .nav-links a:hover {
@@ -796,37 +799,10 @@ body {
 
 /* Responsive Design */
 @media (max-width: 1024px) {
-    .nav-phones {
-        display: none;
-    }
-
-    .about-grid,
-    .detail-grid,
-    .testimonial-feature {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
-
-    .about-stats {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.5rem;
-    }
-
-    .about-text {
-        text-align: center;
-    }
-
-    .footer-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    .footer-locations {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 768px) {
+    /* Collapse to the hamburger here, not at 768px. With six links the row no
+       longer fits below ~930px (below ~1500px on blog pages, which also carry a
+       Contact link and phone numbers), and a squeezed nav grows tall enough to
+       cover the hero on /contact and /body-audit. */
     .mobile-only {
         display: flex;
     }
@@ -867,27 +843,7 @@ body {
         transform: rotate(-45deg) translate(7px, -7px);
     }
 
-    .hero {
-        min-height: 80vh;
-    }
-
-    .about,
-    .services-grid,
-    .service-detail,
-    .client-testimonial,
-    .contact {
-        padding: 4rem 0;
-    }
-
-    .grid {
-        grid-template-columns: 1fr;
-    }
-
-    .section-title {
-        margin-bottom: 2.5rem;
-    }
-
-    /* Show phone numbers in mobile menu */
+    /* Phone numbers move inside the open menu rather than hiding entirely */
     .nav-phones {
         display: flex;
         flex-direction: column;
@@ -914,6 +870,53 @@ body {
         justify-content: center;
         margin-top: 1rem;
         width: 100%;
+    }
+
+    .about-grid,
+    .detail-grid,
+    .testimonial-feature {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .about-stats {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .footer-locations {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 80vh;
+    }
+
+    .about,
+    .services-grid,
+    .service-detail,
+    .client-testimonial,
+    .contact {
+        padding: 4rem 0;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title {
+        margin-bottom: 2.5rem;
     }
 
     .hero-cta {
