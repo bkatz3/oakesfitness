@@ -211,6 +211,7 @@ NAV = """\
                 <a href="/" class="mobile-only">Home</a>
                 <a href="/westford">Westford</a>
                 <a href="/concord">Concord</a>
+                <a href="/hyrox">HYROX</a>
                 <a href="/body-audit">360° Body Audit</a>
                 <a href="/contact">Contact</a>
                 <div class="nav-phones">
@@ -576,6 +577,12 @@ def main():
     <lastmod>{today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://oakesfitness.com/hyrox</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://oakesfitness.com/blog</loc>
