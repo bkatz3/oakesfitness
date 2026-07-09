@@ -103,6 +103,76 @@ if (stickyCta && heroSection) {
     heroObserver.observe(heroSection);
 }
 
+// Team Carousel — click-through, one trainer at a time
+const teamTrack = document.getElementById('teamTrack');
+
+if (teamTrack) {
+    const teamCards = teamTrack.querySelectorAll('.team-card');
+    const teamPrev = document.getElementById('teamPrev');
+    const teamNext = document.getElementById('teamNext');
+    const teamDots = document.querySelectorAll('.team-dot');
+    const teamAnnouncer = document.getElementById('teamAnnouncer');
+    let teamIndex = 0;
+
+    // True while an arrow/dot click is smooth-scrolling the track. Blocks the
+    // scroll listener below from recomputing teamIndex mid-animation, which
+    // would otherwise race the click handler's own index update. A wrap-around
+    // jump (e.g. index 0 -> 4) travels several card-widths and can take far
+    // longer to settle than an adjacent-slide move, so the flag is cleared by
+    // the browser's own 'scrollend' event rather than a guessed fixed delay —
+    // a fixed delay short enough for a 1-slide move would fire mid-animation
+    // for a multi-slide wrap and let the debounce below overwrite teamIndex
+    // with a stale, still-animating scrollLeft reading.
+    let teamIsProgrammaticScroll = false;
+
+    function goToTeamSlide(index) {
+        teamIndex = index;
+        teamIsProgrammaticScroll = true;
+        teamTrack.scrollTo({ left: teamTrack.clientWidth * teamIndex, behavior: 'smooth' });
+        updateTeamControls();
+    }
+
+    teamTrack.addEventListener('scrollend', () => {
+        teamIsProgrammaticScroll = false;
+    });
+
+    function updateTeamControls() {
+        teamDots.forEach((dot, i) => dot.classList.toggle('active', i === teamIndex));
+        if (teamAnnouncer) {
+            const name = teamCards[teamIndex]?.querySelector('.team-name')?.textContent || '';
+            const role = teamCards[teamIndex]?.querySelector('.team-role')?.textContent || '';
+            teamAnnouncer.textContent = [name, role].filter(Boolean).join(', ');
+        }
+    }
+
+    teamPrev.addEventListener('click', () => {
+        goToTeamSlide((teamIndex - 1 + teamCards.length) % teamCards.length);
+    });
+
+    teamNext.addEventListener('click', () => {
+        goToTeamSlide((teamIndex + 1) % teamCards.length);
+    });
+
+    teamDots.forEach((dot, i) => {
+        dot.addEventListener('click', () => goToTeamSlide(i));
+    });
+
+    // Keep dots/arrows in sync when the user swipes the track manually.
+    // scrollLeft / clientWidth recovers the slide index because each card is
+    // exactly one track-width wide (see .team-carousel-track .team-card).
+    let teamScrollTimeout;
+    teamTrack.addEventListener('scroll', () => {
+        if (teamIsProgrammaticScroll) return;
+        clearTimeout(teamScrollTimeout);
+        teamScrollTimeout = setTimeout(() => {
+            teamIndex = Math.round(teamTrack.scrollLeft / teamTrack.clientWidth);
+            updateTeamControls();
+        }, 100);
+    });
+
+    updateTeamControls();
+}
+
 // Smooth scroll offset for fixed nav (optional enhancement)
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
