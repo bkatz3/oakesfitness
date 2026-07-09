@@ -1497,6 +1497,12 @@ body {
         gap: 2.5rem 1.5rem;
         justify-items: center;
     }
+
+    /* With an odd number of tiles the last one is alone on its row.
+       Span both columns so it centers instead of hugging the left. */
+    .services-row > :last-child:nth-child(odd) {
+        grid-column: 1 / -1;
+    }
 }
 
 .service-item {
@@ -1507,6 +1513,13 @@ body {
     flex: 0 0 auto;
     scroll-snap-align: start;
     cursor: default;
+}
+
+/* Service tiles that link to a dedicated page */
+.service-item-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
 /* Dark circle container */
