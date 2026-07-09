@@ -103,6 +103,51 @@ if (stickyCta && heroSection) {
     heroObserver.observe(heroSection);
 }
 
+// Team Carousel — click-through, one trainer at a time
+const teamTrack = document.getElementById('teamTrack');
+
+if (teamTrack) {
+    const teamCards = teamTrack.querySelectorAll('.team-card');
+    const teamPrev = document.getElementById('teamPrev');
+    const teamNext = document.getElementById('teamNext');
+    const teamDots = document.querySelectorAll('.team-dot');
+    let teamIndex = 0;
+
+    function goToTeamSlide(index) {
+        teamIndex = index;
+        teamTrack.scrollTo({ left: teamTrack.clientWidth * teamIndex, behavior: 'smooth' });
+        updateTeamControls();
+    }
+
+    function updateTeamControls() {
+        teamDots.forEach((dot, i) => dot.classList.toggle('active', i === teamIndex));
+    }
+
+    teamPrev.addEventListener('click', () => {
+        goToTeamSlide((teamIndex - 1 + teamCards.length) % teamCards.length);
+    });
+
+    teamNext.addEventListener('click', () => {
+        goToTeamSlide((teamIndex + 1) % teamCards.length);
+    });
+
+    teamDots.forEach((dot, i) => {
+        dot.addEventListener('click', () => goToTeamSlide(i));
+    });
+
+    // Keep dots/arrows in sync when the user swipes the track manually
+    let teamScrollTimeout;
+    teamTrack.addEventListener('scroll', () => {
+        clearTimeout(teamScrollTimeout);
+        teamScrollTimeout = setTimeout(() => {
+            teamIndex = Math.round(teamTrack.scrollLeft / teamTrack.clientWidth);
+            updateTeamControls();
+        }, 100);
+    });
+
+    updateTeamControls();
+}
+
 // Smooth scroll offset for fixed nav (optional enhancement)
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

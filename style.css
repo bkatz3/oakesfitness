@@ -664,10 +664,79 @@ body {
     margin: -2.5rem auto 3rem;
 }
 
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 2rem;
+.team-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.team-carousel-viewport {
+    overflow: hidden;
+    width: 100%;
+    max-width: 680px;
+}
+
+.team-carousel-track {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.team-carousel-track::-webkit-scrollbar {
+    display: none;
+}
+
+.team-carousel-track .team-card {
+    flex: 0 0 100%;
+    width: 100%;
+    scroll-snap-align: start;
+}
+
+.team-carousel-arrow {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid var(--accent-primary);
+    background: transparent;
+    color: var(--accent-primary);
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.team-carousel-arrow:hover {
+    background: var(--accent-primary);
+    color: var(--dark-bg);
+}
+
+.team-carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-top: 2rem;
+}
+
+.team-dot {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.team-dot.active {
+    background: var(--accent-primary);
 }
 
 .team-card {
@@ -691,6 +760,7 @@ body {
     height: 140px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: top;
     margin: 0 auto 1.5rem;
     border: 3px solid rgba(43, 139, 255, 0.2);
 }
@@ -765,15 +835,15 @@ body {
     color: var(--text-primary);
 }
 
-@media (max-width: 1200px) {
-    .team-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 @media (max-width: 480px) {
-    .team-grid {
-        grid-template-columns: 1fr;
+    .team-carousel {
+        gap: 0.75rem;
+    }
+
+    .team-carousel-arrow {
+        width: 36px;
+        height: 36px;
+        font-size: 0.85rem;
     }
 }
 
