@@ -8,6 +8,7 @@
 
 ## Already Written
 
+- ✅ Written (2026-07-16) How Does Caffeine Affect Sleep After 50?
 - ✅ Written (2026-07-06) How to Improve Balance After 50 to Prevent Falls
 - ✅ Written (2026-06-29) Is Walking Enough Exercise After 50, or Do You Need to Lift?
 - ✅ Written (2026-06-22) How to Start Strength Training After 50 if You've Never Lifted
