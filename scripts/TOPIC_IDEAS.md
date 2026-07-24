@@ -37,6 +37,7 @@
 - ✅ Written (2026-06-02) How to Squat Without Knee Pain After 50
 - ✅ Written (2026-06-03) Why Grip Strength Predicts How Long You'll Live After 50
 - ✅ Written (2026-06-10) Strength Training for Pickleball Players Over 50: How to Play Without Getting Hurt
+- ✅ Written (2026-07-23) How to Prevent Muscle Loss on GLP-1 Weight Loss Drugs After 50
 
 ---
 
