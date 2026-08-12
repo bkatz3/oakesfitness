@@ -80,3 +80,54 @@
 
 19. ✅ Written (2026-05-28) How Strength Training Changes Your Brain After 50
 20. ✅ Written (2026-06-01) The Link Between Muscle Mass and Dementia Risk After 50
+
+### Sleep & Recovery (Batch 2)
+
+21. 🟢 Should You Work Out When You're Tired After 50, or Rest?
+22. 🟢 What Is a Deload Week and Do You Need One After 50?
+
+### Hormones & Physiology (Batch 2)
+
+23. 🟢 How Does Strength Training Lower Blood Pressure After 50?
+24. 🟢 Can Strength Training Prevent Type 2 Diabetes After 50?
+25. 🟢 Can Exercise Reduce Hot Flashes and Other Menopause Symptoms?
+
+### Nutrition Science (Batch 2)
+
+26. 🟢 Should You Eat Before or After a Workout After 50?
+27. 🟢 Are Protein Shakes Worth It After 50, or Is Food Enough?
+28. 🟢 Why Dehydration Sneaks Up on You After 50 (and How Much Water You Need)
+
+### Muscle & Aging (Batch 2)
+
+29. 🟢 Is It Too Late to Build Muscle at 70?
+30. 🟢 Why Power Fades Faster Than Strength After 50 (and How to Train It)
+31. 🟢 How Strong Should You Be at 60? Realistic Strength Standards
+
+### Bone & Connective Tissue (Batch 2)
+
+32. 🟢 What Exercises Are Safe (and Which to Avoid) With Osteoporosis?
+33. 🟢 Why Joints Get Stiff After 50 and What Actually Helps
+
+### Brain & Mental Health (Batch 2)
+
+34. 🟢 Can Strength Training Help With Anxiety and Depression After 50?
+35. 🟢 Why Exercise Motivation Drops After 50 (and What Works Instead)
+
+### Injury & Joint Health
+
+36. 🟢 Should You Exercise With Arthritis? What the Research Shows
+37. 🟢 Should You Train Through Pain After 50? Simple Rules for When to Push and When to Stop
+38. 🟢 How to Rebuild Strength After a Knee Replacement
+39. 🟢 How to Train Around Shoulder Pain After 50
+
+### Cardio & Conditioning
+
+40. 🟢 What Is Zone 2 Cardio and Do You Need It After 50?
+41. 🟢 Is HIIT Safe After 50, or Should You Stick to Steady Cardio?
+
+### Local / Commercial (Tier 1)
+
+42. 🟢 Small Group vs 1-on-1 Personal Training: Which Is Right for You? (Westford MA)
+43. 🟢 Personal Trainer vs Physical Therapist After 50: Which Do You Need? (Westford/Concord)
+44. 🟢 How to Find a Personal Trainer in Concord MA if You're Over 50
