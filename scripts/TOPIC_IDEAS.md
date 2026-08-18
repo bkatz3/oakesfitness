@@ -132,3 +132,66 @@
 42. 🟢 Small Group vs 1-on-1 Personal Training: Which Is Right for You? (Westford MA)
 43. 🟢 Personal Trainer vs Physical Therapist After 50: Which Do You Need? (Westford/Concord)
 44. 🟢 How to Find a Personal Trainer in Concord MA if You're Over 50
+
+### Sleep & Recovery (Batch 3)
+
+45. 🟢 Why Naps Help (or Hurt) Recovery After 50
+46. 🟢 How Much Sleep Do You Actually Need After 50 to Build Muscle?
+
+### Hormones & Physiology (Batch 3)
+
+47. 🟢 Can Strength Training Improve Cholesterol Levels After 50?
+48. 🟢 How Does Perimenopause Differ From Menopause for Training and Recovery?
+
+### Nutrition Science (Batch 3)
+
+49. 🟢 Do You Need More Fiber After 50? What It Does for Metabolism and Muscle
+50. 🟢 Is Fasted Cardio a Good Idea After 50?
+51. 🟢 How Many Meals a Day Should You Eat After 50 to Build Muscle?
+
+### Muscle & Aging (Batch 3)
+
+52. 🟢 Can You Build Muscle in a Calorie Deficit After 50?
+53. 🟢 Why Grip Endurance Matters as Much as Grip Strength After 50
+
+### Bone & Connective Tissue (Batch 3)
+
+54. 🟢 What Is a DEXA Scan and Should You Get One After 50?
+55. 🟢 Why Cartilage Wears Down Faster After 50 (and What Slows It)
+
+### Brain & Mental Health (Batch 3)
+
+56. 🟢 How Exercise Protects Against Cognitive Decline After 50
+57. 🟢 Why Consistency Matters More Than Intensity for Long-Term Motivation After 50
+
+### Injury & Joint Health (Batch 2)
+
+58. 🟢 How to Return to Lifting After a Hip Replacement
+59. 🟢 What Causes Frozen Shoulder After 50 and How Training Helps
+60. 🟢 Should You Ice or Heat an Injury After 50?
+
+### Cardio & Conditioning (Batch 2)
+
+61. 🟢 How Much Cardio Do You Actually Need After 50?
+62. 🟢 Can Strength Training Replace Cardio for Heart Health After 50?
+
+### Posture & Mobility
+
+63. 🟢 Why Posture Gets Worse After 50 and How Strength Training Fixes It
+64. 🟢 How to Fix Tight Hips From Sitting All Day After 50
+
+### Supplements
+
+65. 🟢 Is Collagen Worth Taking After 50 for Joints and Muscle?
+66. 🟢 Do Omega-3s Help With Joint Pain and Muscle Recovery After 50?
+
+### Habits & Mindset
+
+67. 🟢 How to Stay Consistent With Workouts When Life Gets Busy After 50
+68. 🟢 What to Do When You Fall Off Your Workout Routine After 50
+
+### Local / Commercial (Tier 1, Batch 2)
+
+69. 🟢 What to Look for in a Gym in Westford MA if You're Over 50
+70. 🟢 Personal Training vs Big-Box Gyms After 50: What's the Real Difference? (Westford/Chelmsford)
+71. 🟢 How to Find a Personal Trainer in Acton MA if You're Over 50
