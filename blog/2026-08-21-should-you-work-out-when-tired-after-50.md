@@ -53,8 +53,6 @@ A workable rule is half the sets, two-thirds the load, none of the grinding reps
 
 Autoregulating like this does not cost you progress. In a 12-week randomized trial of 25 women aged 60 to 75 ([Tiggemann et al., 2021, *International Journal of Environmental Research and Public Health*](https://doi.org/10.3390/ijerph18157892)), loads set by rating of perceived exertion produced the same gains in strength and repetitions as loads set from one-rep-max testing. Adjusting by feel on the day is a legitimate way to program, not a compromise version of it.
 
-One caveat worth taking seriously: fatigue that persists for weeks despite decent sleep, or that comes with unexplained weight loss, breathlessness, or chest symptoms, is a medical question, not a programming one. Thyroid issues, anemia, sleep apnea, and medication side effects are common after 50 and none of them are fixed by a lighter training week.
-
 If you cannot tell which kind of tired you have been for the past month, that is worth an outside read. A [free 360° body audit](https://oakesfitness.com/contact.html) at Oakes Fitness looks at your training load, sleep, and recovery together and tells you which one is actually the problem.
 
 ## Key Takeaways
