@@ -41,6 +41,7 @@
 - ✅ Written (2026-08-11) Should You Lift Heavy or Light Weights After 50?
 - ✅ Written (2026-08-19) 10 Stretches for Back and Neck Tightness From Sitting at a Desk
 - ✅ Written (2026-08-21) Should You Work Out When You're Tired After 50, or Rest?
+- ✅ Written (2026-08-23) What Is a Deload Week and Do You Need One After 50?
 
 ---
 
@@ -87,7 +88,7 @@
 ### Sleep & Recovery (Batch 2)
 
 21. ✅ Written (2026-08-21) Should You Work Out When You're Tired After 50, or Rest?
-22. 🟢 What Is a Deload Week and Do You Need One After 50?
+22. ✅ Written (2026-08-23) What Is a Deload Week and Do You Need One After 50?
 
 ### Hormones & Physiology (Batch 2)
 
