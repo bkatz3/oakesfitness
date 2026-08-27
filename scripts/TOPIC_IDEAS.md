@@ -42,6 +42,7 @@
 - ✅ Written (2026-08-19) 10 Stretches for Back and Neck Tightness From Sitting at a Desk
 - ✅ Written (2026-08-21) Should You Work Out When You're Tired After 50, or Rest?
 - ✅ Written (2026-08-23) What Is a Deload Week and Do You Need One After 50?
+- ✅ Written (2026-08-27) How Does Strength Training Lower Blood Pressure After 50?
 
 ---
 
@@ -92,7 +93,7 @@
 
 ### Hormones & Physiology (Batch 2)
 
-23. 🟢 How Does Strength Training Lower Blood Pressure After 50?
+23. ✅ Written (2026-08-27) How Does Strength Training Lower Blood Pressure After 50?
 24. 🟢 Can Strength Training Prevent Type 2 Diabetes After 50?
 25. 🟢 Can Exercise Reduce Hot Flashes and Other Menopause Symptoms?
 
