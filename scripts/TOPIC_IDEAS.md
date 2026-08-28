@@ -43,6 +43,7 @@
 - ✅ Written (2026-08-21) Should You Work Out When You're Tired After 50, or Rest?
 - ✅ Written (2026-08-23) What Is a Deload Week and Do You Need One After 50?
 - ✅ Written (2026-08-27) How Does Strength Training Lower Blood Pressure After 50?
+- ✅ Written (2026-08-28) 10 Movements to Improve Your Grip Strength After 50
 
 ---
 
