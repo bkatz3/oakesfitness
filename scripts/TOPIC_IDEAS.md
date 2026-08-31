@@ -96,7 +96,7 @@
 
 23. ✅ Written (2026-08-27) How Does Strength Training Lower Blood Pressure After 50?
 24. 🟢 Can Strength Training Prevent Type 2 Diabetes After 50?
-25. 🟢 Can Exercise Reduce Hot Flashes and Other Menopause Symptoms?
+25. ✅ Written (2026-08-31) Can Exercise Reduce Hot Flashes and Other Menopause Symptoms?
 
 ### Nutrition Science (Batch 2)
 
