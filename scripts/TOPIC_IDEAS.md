@@ -101,7 +101,7 @@
 ### Nutrition Science (Batch 2)
 
 26. ✅ Written (2026-09-01) Should You Eat Before or After a Workout After 50?
-27. 🟢 Are Protein Shakes Worth It After 50, or Is Food Enough?
+27. ✅ Written (2026-09-02) Are Protein Shakes Worth It After 50, or Is Food Enough?
 28. 🟢 Why Dehydration Sneaks Up on You After 50 (and How Much Water You Need)
 
 ### Muscle & Aging (Batch 2)
