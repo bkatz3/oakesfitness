@@ -44,6 +44,7 @@
 - ✅ Written (2026-08-23) What Is a Deload Week and Do You Need One After 50?
 - ✅ Written (2026-08-27) How Does Strength Training Lower Blood Pressure After 50?
 - ✅ Written (2026-08-28) 10 Movements to Improve Your Grip Strength After 50
+- ✅ Written (2026-09-03) How to Train With Arthritis in Your Hands After 50
 
 ---
 
@@ -200,3 +201,7 @@
 69. 🟢 What to Look for in a Gym in Westford MA if You're Over 50
 70. 🟢 Personal Training vs Big-Box Gyms After 50: What's the Real Difference? (Westford/Chelmsford)
 71. 🟢 How to Find a Personal Trainer in Acton MA if You're Over 50
+
+### Injury & Joint Health (Batch 3)
+
+72. ✅ Written (2026-09-03) How to Train With Arthritis in Your Hands After 50
