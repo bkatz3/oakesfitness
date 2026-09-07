@@ -45,6 +45,7 @@
 - ✅ Written (2026-08-27) How Does Strength Training Lower Blood Pressure After 50?
 - ✅ Written (2026-08-28) 10 Movements to Improve Your Grip Strength After 50
 - ✅ Written (2026-09-03) How to Train With Arthritis in Your Hands After 50
+- ✅ Written (2026-09-07) Why Dehydration Sneaks Up on You After 50 (and How Much Water You Need)
 
 ---
 
@@ -103,7 +104,7 @@
 
 26. ✅ Written (2026-09-01) Should You Eat Before or After a Workout After 50?
 27. ✅ Written (2026-09-02) Are Protein Shakes Worth It After 50, or Is Food Enough?
-28. 🟢 Why Dehydration Sneaks Up on You After 50 (and How Much Water You Need)
+28. ✅ Written (2026-09-07) Why Dehydration Sneaks Up on You After 50 (and How Much Water You Need)
 
 ### Muscle & Aging (Batch 2)
 
