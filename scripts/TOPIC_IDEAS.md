@@ -47,6 +47,7 @@
 - ✅ Written (2026-09-03) How to Train With Arthritis in Your Hands After 50
 - ✅ Written (2026-09-07) Why Dehydration Sneaks Up on You After 50 (and How Much Water You Need)
 - ✅ Written (2026-09-08) Is It Too Late to Build Muscle at 70?
+- ✅ Written (2026-09-09) Why Power Fades Faster Than Strength After 50 (and How to Train It)
 
 ---
 
@@ -110,7 +111,7 @@
 ### Muscle & Aging (Batch 2)
 
 29. ✅ Written (2026-09-08) Is It Too Late to Build Muscle at 70?
-30. 🟢 Why Power Fades Faster Than Strength After 50 (and How to Train It)
+30. ✅ Written (2026-09-09) Why Power Fades Faster Than Strength After 50 (and How to Train It)
 31. 🟢 How Strong Should You Be at 60? Realistic Strength Standards
 
 ### Bone & Connective Tissue (Batch 2)
