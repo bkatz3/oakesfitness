@@ -50,6 +50,7 @@
 - ✅ Written (2026-09-09) Why Power Fades Faster Than Strength After 50 (and How to Train It)
 - ✅ Written (2026-09-10) How Strong Should You Be at 60? Realistic Strength Standards
 - ✅ Written (2026-09-11) What Exercises Are Safe (and Which to Avoid) With Osteoporosis?
+- ✅ Written (2026-09-14) Why Joints Get Stiff After 50 and What Actually Helps
 
 ---
 
@@ -119,7 +120,7 @@
 ### Bone & Connective Tissue (Batch 2)
 
 32. ✅ Written (2026-09-11) What Exercises Are Safe (and Which to Avoid) With Osteoporosis?
-33. 🟢 Why Joints Get Stiff After 50 and What Actually Helps
+33. ✅ Written (2026-09-14) Why Joints Get Stiff After 50 and What Actually Helps
 
 ### Brain & Mental Health (Batch 2)
 
