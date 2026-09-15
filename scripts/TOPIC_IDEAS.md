@@ -50,6 +50,7 @@
 - ✅ Written (2026-09-09) Why Power Fades Faster Than Strength After 50 (and How to Train It)
 - ✅ Written (2026-09-10) How Strong Should You Be at 60? Realistic Strength Standards
 - ✅ Written (2026-09-11) What Exercises Are Safe (and Which to Avoid) With Osteoporosis?
+- ✅ Written (2026-09-15) Can Strength Training Help With Anxiety and Depression After 50?
 - ✅ Written (2026-09-14) Why Joints Get Stiff After 50 and What Actually Helps
 
 ---
@@ -124,7 +125,7 @@
 
 ### Brain & Mental Health (Batch 2)
 
-34. 🟢 Can Strength Training Help With Anxiety and Depression After 50?
+34. ✅ Written (2026-09-15) Can Strength Training Help With Anxiety and Depression After 50?
 35. 🟢 Why Exercise Motivation Drops After 50 (and What Works Instead)
 
 ### Injury & Joint Health
