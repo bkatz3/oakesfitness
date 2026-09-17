@@ -51,6 +51,7 @@
 - ✅ Written (2026-09-10) How Strong Should You Be at 60? Realistic Strength Standards
 - ✅ Written (2026-09-11) What Exercises Are Safe (and Which to Avoid) With Osteoporosis?
 - ✅ Written (2026-09-14) Why Joints Get Stiff After 50 and What Actually Helps
+- ✅ Written (2026-09-17) Should You Exercise With Arthritis? What the Research Shows
 
 ---
 
@@ -129,7 +130,7 @@
 
 ### Injury & Joint Health
 
-36. 🟢 Should You Exercise With Arthritis? What the Research Shows
+36. ✅ Written (2026-09-17) Should You Exercise With Arthritis? What the Research Shows
 37. 🟢 Should You Train Through Pain After 50? Simple Rules for When to Push and When to Stop
 38. 🟢 How to Rebuild Strength After a Knee Replacement
 39. 🟢 How to Train Around Shoulder Pain After 50
