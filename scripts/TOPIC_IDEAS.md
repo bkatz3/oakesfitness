@@ -138,7 +138,7 @@
 ### Cardio & Conditioning
 
 40. 🟢 What Is Zone 2 Cardio and Do You Need It After 50?
-41. 🟢 Is HIIT Safe After 50, or Should You Stick to Steady Cardio?
+41. ✅ Written (2026-09-24) Is HIIT Safe After 50, or Should You Stick to Steady Cardio?
 
 ### Local / Commercial (Tier 1)
 
