@@ -144,7 +144,7 @@
 
 42. 🟢 Small Group vs 1-on-1 Personal Training: Which Is Right for You? (Westford MA)
 43. 🟢 Personal Trainer vs Physical Therapist After 50: Which Do You Need? (Westford/Concord)
-44. 🟢 How to Find a Personal Trainer in Concord MA if You're Over 50
+44. ✅ Written (2026-09-29) How to Find a Personal Trainer in Concord MA if You're Over 50
 
 ### Sleep & Recovery (Batch 3)
 
