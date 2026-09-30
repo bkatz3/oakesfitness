@@ -148,7 +148,7 @@
 
 ### Sleep & Recovery (Batch 3)
 
-45. 🟢 Why Naps Help (or Hurt) Recovery After 50
+45. ✅ Written (2026-09-30) Why Naps Help (or Hurt) Recovery After 50
 46. 🟢 How Much Sleep Do You Actually Need After 50 to Build Muscle?
 
 ### Hormones & Physiology (Batch 3)
