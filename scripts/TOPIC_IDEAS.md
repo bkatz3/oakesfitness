@@ -165,7 +165,7 @@
 ### Muscle & Aging (Batch 3)
 
 52. 🟢 Can You Build Muscle in a Calorie Deficit After 50?
-53. 🟢 Why Grip Endurance Matters as Much as Grip Strength After 50
+53. ✅ Written (2026-10-12) Why Grip Endurance Matters as Much as Grip Strength After 50
 
 ### Bone & Connective Tissue (Batch 3)
 
