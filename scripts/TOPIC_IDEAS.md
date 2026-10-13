@@ -169,7 +169,7 @@
 
 ### Bone & Connective Tissue (Batch 3)
 
-54. 🟢 What Is a DEXA Scan and Should You Get One After 50?
+54. ✅ Written (2026-10-13) What Is a DEXA Scan and Should You Get One After 50?
 55. 🟢 Why Cartilage Wears Down Faster After 50 (and What Slows It)
 
 ### Brain & Mental Health (Batch 3)
