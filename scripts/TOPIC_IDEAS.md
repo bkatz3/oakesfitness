@@ -175,7 +175,7 @@
 ### Brain & Mental Health (Batch 3)
 
 56. ✅ Written (2026-10-15) How Exercise Protects Against Cognitive Decline After 50
-57. 🟢 Why Consistency Matters More Than Intensity for Long-Term Motivation After 50
+57. ✅ Written (2026-10-16) Why Consistency Matters More Than Intensity for Long-Term Motivation After 50
 
 ### Injury & Joint Health (Batch 2)
 
