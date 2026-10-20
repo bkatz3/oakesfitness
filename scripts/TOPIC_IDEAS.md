@@ -181,7 +181,7 @@
 
 58. 🟢 How to Return to Lifting After a Hip Replacement
 59. ✅ Written (2026-10-19) What Causes Frozen Shoulder After 50 and How Training Helps
-60. 🟢 Should You Ice or Heat an Injury After 50?
+60. ✅ Written (2026-10-20) Should You Ice or Heat an Injury After 50?
 
 ### Cardio & Conditioning (Batch 2)
 
