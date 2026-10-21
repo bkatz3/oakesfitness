@@ -153,7 +153,7 @@
 
 ### Hormones & Physiology (Batch 3)
 
-47. 🟢 Can Strength Training Improve Cholesterol Levels After 50?
+47. ✅ Written (2026-10-02) Can Strength Training Improve Cholesterol Levels After 50?
 48. 🟢 How Does Perimenopause Differ From Menopause for Training and Recovery?
 
 ### Nutrition Science (Batch 3)
