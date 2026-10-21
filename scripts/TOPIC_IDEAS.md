@@ -158,7 +158,7 @@
 
 ### Nutrition Science (Batch 3)
 
-49. 🟢 Do You Need More Fiber After 50? What It Does for Metabolism and Muscle
+49. ✅ Written (2026-10-21) Do You Need More Fiber After 50? What It Does for Metabolism and Muscle
 50. 🟢 Is Fasted Cardio a Good Idea After 50?
 51. 🟢 How Many Meals a Day Should You Eat After 50 to Build Muscle?
 
