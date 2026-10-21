@@ -131,7 +131,7 @@
 ### Injury & Joint Health
 
 36. ✅ Written (2026-09-17) Should You Exercise With Arthritis? What the Research Shows
-37. 🟢 Should You Train Through Pain After 50? Simple Rules for When to Push and When to Stop
+37. ✅ Written (2026-09-18) Should You Train Through Pain After 50? Simple Rules for When to Push and When to Stop
 38. 🟢 How to Rebuild Strength After a Knee Replacement
 39. 🟢 How to Train Around Shoulder Pain After 50
 
