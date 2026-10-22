@@ -185,7 +185,7 @@
 
 ### Cardio & Conditioning (Batch 2)
 
-61. 🟢 How Much Cardio Do You Actually Need After 50?
+61. ✅ Written (2026-10-22) How Much Cardio Do You Actually Need After 50?
 62. 🟢 Can Strength Training Replace Cardio for Heart Health After 50?
 
 ### Posture & Mobility
