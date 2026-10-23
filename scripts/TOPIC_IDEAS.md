@@ -186,7 +186,7 @@
 ### Cardio & Conditioning (Batch 2)
 
 61. ✅ Written (2026-10-22) How Much Cardio Do You Actually Need After 50?
-62. 🟢 Can Strength Training Replace Cardio for Heart Health After 50?
+62. ✅ Written (2026-10-23) Can Strength Training Replace Cardio for Heart Health After 50?
 
 ### Posture & Mobility
 
@@ -212,3 +212,6 @@
 ### Injury & Joint Health (Batch 3)
 
 72. ✅ Written (2026-09-03) How to Train With Arthritis in Your Hands After 50
+
+
+</cursor_untrusted_data_1337>
