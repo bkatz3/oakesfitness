@@ -21,7 +21,7 @@ A meta-analysis pooling resistance training studies with and without an energy d
 
 ## What Does the Research Show After 50?
 
-The trials in older adults ask a slightly different question: when people over 55 diet, does lifting protect their muscle? The answer is consistently yes.
+The trials in older adults ask a slightly different question: when people over 55 diet, does lifting protect their muscle? Taken together, the answer points to yes.
 
 In a 10-week trial of 100 overweight and obese adults ages 55 to 80 on a reduced-calorie diet ([Verreijen et al., 2017, *Nutrition Journal*, PMID 28166780](https://pubmed.ncbi.nlm.nih.gov/28166780/)), participants were split into higher or normal protein, with or without resistance training three times a week. Only the group doing both increased fat-free mass, by 0.6 kg. Two honest caveats: the higher-protein groups fell short of their 1.3 g/kg target and averaged about 1.1 g/kg, and the main effects of protein and exercise on their own were not statistically significant. It is a signal, not a guarantee.
 
