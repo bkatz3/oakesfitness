@@ -190,7 +190,7 @@
 
 ### Posture & Mobility
 
-63. 🟢 Why Posture Gets Worse After 50 and How Strength Training Fixes It
+63. ✅ Written (2026-10-26) Why Posture Gets Worse After 50 and How Strength Training Fixes It
 64. 🟢 How to Fix Tight Hips From Sitting All Day After 50
 
 ### Supplements
