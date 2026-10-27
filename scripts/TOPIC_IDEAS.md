@@ -191,7 +191,7 @@
 ### Posture & Mobility
 
 63. 🟢 Why Posture Gets Worse After 50 and How Strength Training Fixes It
-64. 🟢 How to Fix Tight Hips From Sitting All Day After 50
+64. ✅ Written (2026-10-27) How to Fix Tight Hips From Sitting All Day After 50
 
 ### Supplements
 
@@ -212,6 +212,3 @@
 ### Injury & Joint Health (Batch 3)
 
 72. ✅ Written (2026-09-03) How to Train With Arthritis in Your Hands After 50
-
-
-</cursor_untrusted_data_1337>
