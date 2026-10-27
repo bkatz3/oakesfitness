@@ -60,7 +60,7 @@ If you want a plan built around where you are now, physically and otherwise, a [
 
 - A meta-analysis of 33 randomized trials found that resistance training produced a moderate reduction in depressive symptoms, with the effect holding across age, sex, and health status.
 - A meta-analysis of 16 studies found that resistance training reduced anxiety symptoms, with a smaller effect than for depression and a larger effect in healthy participants.
-- A 2024 network meta-analysis of 218 studies found that strength training, walking or jogging, and yoga all reduced depression, though confidence in most estimates was low.
+- A 2024 network meta-analysis of 218 studies found that strength training, walking or jogging, and yoga all reduced depression, though the authors rated confidence in those estimates as low to very low.
 - In small trials of adults over 60 with depression, supervised resistance training lowered depression scores more than control conditions, and high-intensity training outperformed low-intensity training and usual care.
 - Effort appears to matter more than the size of your strength gains, so working hard for your level and staying consistent is the goal.
 - Strength training works alongside treatment, not instead of it, and anyone with persistent low mood or anxiety should talk with their doctor before making changes to their care.
