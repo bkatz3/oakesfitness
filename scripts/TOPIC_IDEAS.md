@@ -125,7 +125,7 @@
 
 ### Brain & Mental Health (Batch 2)
 
-34. 🟢 Can Strength Training Help With Anxiety and Depression After 50?
+34. ✅ Written (2026-10-27) Can Strength Training Help With Anxiety and Depression After 50?
 35. 🟢 Why Exercise Motivation Drops After 50 (and What Works Instead)
 
 ### Injury & Joint Health
