@@ -13,11 +13,11 @@ Most people treat the last physical therapy visit as the finish line after a kne
 
 ## How Much Strength Do You Lose After a Knee Replacement?
 
-More than most people expect, and most of it is not muscle you lost on the operating table.
+More than most people expect, and a large part of it is not muscle you lost on the operating table.
 
 A study of 28 adults with end-stage knee osteoarthritis, average age 63, tested quadriceps strength about 10 days before surgery and again about 26 days after ([Stevens et al., 2003, *Journal of Orthopaedic Research*, PMID 12919862](https://pubmed.ncbi.nlm.nih.gov/12919862/)). Quadriceps strength fell by 60 percent. Voluntary activation, the share of the muscle the nervous system could switch on, fell by 17 percent, and the drop in activation accounted for 65 percent of the variation in how much strength people lost.
 
-That last number matters. Early after surgery, a big part of the weakness is the nervous system holding back a sore, swollen knee, not muscle that has disappeared. That holding back usually eases with time and consistent training, which is part of why steady loading works better than waiting for the leg to feel strong on its own.
+That last number matters. Early after surgery, a big part of the weakness is the nervous system holding back a sore, swollen knee, not muscle that has disappeared. That holding back tends to ease with time and consistent training. In our experience, steady loading does more for it than waiting for the leg to feel strong on its own.
 
 ## Is the Leg Back to Normal When PT Ends?
 
@@ -25,17 +25,17 @@ Usually not. Feeling fine walking around the house is a much lower bar than full
 
 One study compared 29 people one year after a knee replacement with 40 people of similar age and sex who had no knee disease ([Walsh et al., 1998, *Physical Therapy*, PMID 9520970](https://pubmed.ncbi.nlm.nih.gov/9520970/)). A year out, the knee replacement group's knee extensors were 37 to 39 percent weaker in men and 28 to 29 percent weaker in women. Stair climbing took 51 percent longer in men and 43 percent longer in women. The authors described the impairments as marked and persistent.
 
-That study is small and older, and surgical and rehab methods have changed since. It still lines up with what a lot of people notice themselves: the surgery fixed the joint pain, but stairs, getting off the floor, and long walks never quite came back. For many people the deficit is in strength, not in the joint.
+That study is small and older, and surgical and rehab methods have changed since. It still lines up with what a lot of people notice themselves: the surgery fixed the joint pain, but stairs, getting off the floor, and long walks never quite came back. Often what is left is a strength problem, not a joint problem.
 
 ## Does Training After PT Actually Help?
 
-The honest answer is that it helps some measures more than others, and it is safe.
+The honest answer is that it helps some measures more than others, and it appears to be safe.
 
-The largest trial on this question enrolled 240 adults aged 60 and over, average age 70, who had their knee replaced more than two months earlier ([Piva et al., 2019, *JAMA Network Open*, PMID 30794296](https://pubmed.ncbi.nlm.nih.gov/30794296/)). They were randomized to 12 weeks of supervised clinic-based exercise, 12 weeks of community group exercise, or usual care. On the main outcome, a self-reported function questionnaire, all three groups improved and there was no difference between them. On performance tests like walking and stairs, the supervised clinic group improved more than the other two, and it had more people who improved by a meaningful amount. The authors said those secondary results need confirming.
+One of the larger trials on this question enrolled 240 adults aged 60 and over, average age 70, who had their knee replaced more than two months earlier ([Piva et al., 2019, *JAMA Network Open*, PMID 30794296](https://pubmed.ncbi.nlm.nih.gov/30794296/)). They were randomized to 12 weeks of supervised clinic-based exercise, 12 weeks of community group exercise, or usual care. On the main outcome, a self-reported function questionnaire, all three groups improved and there was no difference between them. On performance-based tests of physical function, the supervised clinic group improved more than the other two, and it had more people who improved by a meaningful amount. The authors said those secondary results need confirming.
 
 A 2024 meta-analysis pooled 9 studies with 1,021 knee replacement patients and compared progressive resistance training with standard rehab ([Liu et al., 2024, *Journal of Orthopaedics*, PMID 38828469](https://pubmed.ncbi.nlm.nih.gov/38828469/)). It found no significant differences in walking distance, sit-to-stand, stair climbing, leg extension strength, or the Timed Up and Go test at the time points measured, and no difference in adverse events.
 
-Read those two together. Heavier, progressive training did not hurt anyone, and it did not reliably beat standard rehab in these trials. What the research does not tell you is that you should stop when formal rehab stops. Most of these programs ran for weeks, not years, and strength after 50 is built and kept over years. A plan you can keep running, with load that keeps going up slowly, is the part that compounds.
+Read those two together. Progressive training did not cause more adverse events than standard rehab, and it did not reliably beat standard rehab either. What the research does not tell you is that you should stop when formal rehab stops. The programs studied ran for months at most, and strength after 50 is built and kept over years. A plan you can keep running, with load that keeps going up slowly, is the part that compounds.
 
 ## Which Muscles Should You Focus On?
 
@@ -83,8 +83,8 @@ We do not diagnose in the studio. If something on that list sounds familiar, tal
 
 - In a study of 28 adults, quadriceps strength fell 60 percent in the month after knee replacement, and a drop in voluntary muscle activation accounted for most of the variation in that loss.
 - One year after surgery, a small study found knee extensor strength was still 28 to 39 percent lower than in people of similar age and sex without knee disease, with stair climbing 43 to 51 percent slower.
-- A randomized trial of 240 adults over 60 found later-stage exercise did not beat usual care on self-reported function, though supervised clinic exercise did better on walking and stair tests.
-- A meta-analysis of 9 studies found progressive resistance training was as safe as standard rehab after knee replacement, but not clearly better on short-term strength and function tests.
+- A randomized trial of 240 adults over 60 found later-stage exercise did not beat usual care on self-reported function, though supervised clinic exercise did better on performance-based function tests.
+- A meta-analysis of 9 studies found progressive resistance training was as safe as standard rehab after knee replacement, but not clearly better on the strength and function tests measured.
 - Hip abductor strength was linked with stairs, walking turns, and chair rises after knee replacement, independent of quadriceps strength, so train the hips as well as the thigh.
 - Once cleared, 2 to 3 leg sessions a week of 2 to 3 sets of 8 to 12 reps, progressed slowly and kept up for the long term, is a practical way to close the gap PT leaves.
 - New swelling, heat, calf pain, giving way, or worsening range of motion are reasons to check with your surgeon or physical therapist before training on.
