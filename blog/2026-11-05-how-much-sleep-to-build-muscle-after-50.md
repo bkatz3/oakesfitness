@@ -21,7 +21,7 @@ So where does the "you need less" idea come from? Mostly from what people notice
 
 ## What Actually Changes About Sleep With Age?
 
-The largest summary of normal sleep across the lifespan pooled 65 studies covering 3,577 healthy people aged 5 to 102 ([Ohayon et al., 2004, *Sleep*](https://doi.org/10.1093/sleep/27.7.1255)). In adults, total sleep time, sleep efficiency (the share of time in bed you're actually asleep), and the share of slow-wave or deep sleep all fell with age, while time awake after first falling asleep rose.
+A widely cited meta-analysis of normal sleep across the lifespan pooled 65 studies covering 3,577 healthy people aged 5 to 102 ([Ohayon et al., 2004, *Sleep*](https://doi.org/10.1093/sleep/27.7.1255)). In adults, total sleep time, sleep efficiency (the share of time in bed you're actually asleep), and the share of slow-wave or deep sleep all fell with age, while time awake after first falling asleep rose.
 
 One detail in that paper is easy to miss. After 60, only sleep efficiency kept declining significantly. In other words, the biggest age-related shifts happen through midlife, and after 60 the main ongoing change is that more of your time in bed is spent awake.
 
