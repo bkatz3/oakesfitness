@@ -19,13 +19,13 @@ That clinical role is the dividing line. A PT can assess a new injury, manage th
 
 Exercise is still the core of most PT, and the evidence behind it is solid. A 2024 Cochrane review of exercise for knee osteoarthritis pooled 139 trials with 12,468 participants ([Lawford et al., 2024, *Cochrane Database of Systematic Reviews*, DOI 10.1002/14651858.CD004376.pub4](https://doi.org/10.1002/14651858.CD004376.pub4)). Compared with usual care or no treatment, exercise improved pain by about 13 points and physical function by about 12.5 points on 0 to 100 scales, measured right after the programs ended. The authors rated that evidence low to moderate certainty, described the benefits as short-term, and called their clinical importance uncertain.
 
-Read that the way a coach would. Exercise works, the effects in trials are measured over weeks to months, and nothing in a short program keeps working after you stop doing it.
+Read that the way a coach would. Exercise works, the review measured that benefit in the short term, and in our experience nothing in a short program keeps working after you stop doing it.
 
 ## What Does a Personal Trainer Do That a PT Doesn't?
 
 A personal trainer is not a clinician. Trainers do not diagnose, and a good one will tell you so. Certifications such as NSCA, ACSM, NASM, or ISSA show a trainer passed a test. They are not a license to treat injuries.
 
-What a trainer does well is the long middle of training: progressive loading, week after week, for years. Strength, bone, balance, and conditioning after 50 are built slowly and lost faster than they used to be. That is a job measured in seasons, not in a set number of visits.
+What a trainer does well is the long middle of training: progressive loading, week after week, for years. Strength, bone, balance, and conditioning after 50 are built slowly and are harder to hold onto than they used to be. That is a job measured in seasons, not in a set number of visits.
 
 A trainer also handles the parts of life that are not an injury at all. Deconditioning after a busy decade, stiffness from desk work, a first serious attempt at lifting at 58. None of that needs a diagnosis. It needs a plan and someone watching your form.
 
@@ -83,7 +83,7 @@ Credentials matter here too. Some trainers, including some of our coaches at Oak
 
 - A physical therapist is a licensed clinician who evaluates and treats an injury or condition. A personal trainer builds strength and conditioning and does not diagnose.
 - If something is wrong (new injury, swelling, numbness, worsening pain, recent surgery), see a clinician first. If something is weak, a trainer is usually the right first call.
-- A 2024 Cochrane review of 139 trials found that exercise improves knee osteoarthritis pain and function in the short term, which is why continuing to train after formal care matters.
+- A 2024 Cochrane review of 139 trials found that exercise improves knee osteoarthritis pain and function in the short term. Keeping that benefit depends on what you do after formal care ends.
 - PT discharge usually means you reached your plan-of-care goals, not that your strength is fully back.
 - A good handoff includes clearance in plain words, your discharge notes, any lasting limits, an assessment before loading, and agreed signs that send you back to your PT.
 - The right trainer after PT works with post-rehab clients regularly, follows your PT's limits, and refers out when something looks clinical.
