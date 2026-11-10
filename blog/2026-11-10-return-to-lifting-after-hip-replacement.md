@@ -17,7 +17,7 @@ Not fully, at least not for many people.
 
 A study of 20 patients with arthritis in one hip used CT scans to measure the muscles around both hips before surgery, at six months, and two years after the replacement ([Rasch et al., 2009, *Journal of Bone & Joint Surgery British Volume*, DOI 10.1302/0301-620X.91B5.21477](https://doi.org/10.1302/0301-620X.91B5.21477)). Two years out, compared with the healthy side, the operated side's iliopsoas, the main hip flexor, was 7.0 percent smaller and the hip adductors were 8.4 percent smaller. The gluteal muscles on the operated side also had lower density on the scans, which researchers read as poorer muscle quality. The authors called it persistent muscle atrophy and suggested more intensive rehab might reverse it.
 
-That is a small study, but the pattern matches what many people notice. The hip stops hurting, and yet stairs, getting up from the floor, and standing on that leg still feel weaker than they should. Usually that is a muscle problem, and muscle responds to training.
+That is a small study, but the pattern matches what many people notice. The hip stops hurting, and yet stairs, getting up from the floor, and standing on that leg still feel weaker than they should. Often that is a muscle problem, and muscle responds to training.
 
 ## Is Heavy Strength Training Safe After a Hip Replacement?
 
@@ -25,7 +25,7 @@ In the right hands and at the right time, the research is encouraging.
 
 A randomized trial put 60 hip replacement patients into either standard physiotherapy or maximal strength training ([Winther et al., 2018, *Acta Orthopaedica*, DOI 10.1080/17453674.2018.1441362](https://doi.org/10.1080/17453674.2018.1441362)). The strength group did leg press and hip abduction with the operated leg at 85 to 90 percent of their maximum, 4 sets of 5 reps, three times a week, at a municipal physiotherapy clinic for up to three months after surgery. At three months they were 43 kg stronger on the leg press and 3 kg stronger in hip abduction than the standard group. At six months the gaps were 30 kg and 3 kg. The authors reported that patients tolerated it well.
 
-Two details matter. First, this was done at a physiotherapy clinic as part of formal rehab, not by people loading up on their own. Second, by one year the two groups were no longer different. Heavy early work sped up the gains, but it did not lock them in. What keeps the strength is training that continues after formal rehab ends.
+Two details matter. First, this was done at a physiotherapy clinic as part of formal rehab, not by people loading up on their own. Second, by one year the two groups were no longer different. Heavy early work sped up the gains, but it did not lock them in. That is a good reason to keep training after formal rehab ends instead of stopping there.
 
 ## What About Hip Precautions?
 
@@ -84,7 +84,7 @@ We do not diagnose in the studio. If something on that list sounds familiar, tal
 
 - A CT study of 20 patients found the hip flexor and adductor muscles on the operated side were still 7 to 8 percent smaller than the healthy side two years after hip replacement.
 - In a randomized trial of 60 patients, clinic-based heavy leg press and hip abduction training made the operated leg markedly stronger at three and six months than standard physiotherapy.
-- That early advantage was gone by one year, so continued training after rehab is what holds on to the strength.
+- That early advantage was gone by one year, which is a reason to keep training after rehab ends rather than stopping there.
 - A 2023 review of 8,835 posterior-approach patients found routine hip precautions did not clearly change early dislocation rates, but your surgeon decides which restrictions apply to you.
 - A review of 37 studies found about 8 in 10 people returned to their pre-symptom sport level, typically 16 to 28 weeks after surgery.
 - Once cleared, 2 to 3 leg sessions a week of 2 to 3 sets of 8 to 12 reps, with extra attention on the outside of the hip, is a practical way to close the gap.
