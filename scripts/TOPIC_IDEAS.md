@@ -195,7 +195,7 @@
 
 ### Supplements
 
-65. 🟢 Is Collagen Worth Taking After 50 for Joints and Muscle?
+65. ✅ Written (2026-11-11) Is Collagen Worth Taking After 50 for Joints and Muscle?
 66. 🟢 Do Omega-3s Help With Joint Pain and Muscle Recovery After 50?
 
 ### Habits & Mindset
