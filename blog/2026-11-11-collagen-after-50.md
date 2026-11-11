@@ -21,11 +21,11 @@ The pitch is simple: you lose collagen with age, so eat collagen and put it back
 
 A little, in some studies. The size of the effect is the part the label leaves out.
 
-In a 24-week trial at Penn State, 147 college athletes with activity-related joint pain and no diagnosed joint disease took 10 g of collagen hydrolysate or a placebo every day ([Clark et al., 2008, *Current Medical Research and Opinion*, PMID 18416885](https://pubmed.ncbi.nlm.nih.gov/18416885/)). Only 97 of them made it into the analysis. The collagen group reported somewhat bigger drops in pain while walking, standing, lifting, carrying, and at rest. On the study's pain scales, the gap between groups was roughly half a point.
+In a 24-week trial at Penn State, 147 athletes on varsity or club teams with activity-related joint pain and no diagnosed joint disease took 10 g of collagen hydrolysate or a placebo every day ([Clark et al., 2008, *Current Medical Research and Opinion*, PMID 18416885](https://pubmed.ncbi.nlm.nih.gov/18416885/)). Only 97 of them made it into the analysis. The collagen group reported somewhat bigger drops in pain while walking, standing, lifting, carrying, and at rest. On the study's pain scales, the gap between groups was roughly half a point.
 
 A German trial gave 139 young athletes with knee pain during activity either 5 g of collagen peptides or a placebo daily for 12 weeks ([Zdzieblik et al., 2017, *Applied Physiology, Nutrition, and Metabolism*, PMID 28177710](https://pubmed.ncbi.nlm.nih.gov/28177710/)). Pain during activity fell more with collagen than with placebo, by about 4 to 6 points on the study's pain scale. Pain at rest did not differ between groups, and knee range of motion did not change significantly.
 
-Both of those were young athletes, not adults over 50. For osteoarthritis, a meta-analysis of placebo-controlled trials found collagen improved total scores on the WOMAC, a standard osteoarthritis questionnaire, along with stiffness and visual analogue scale scores ([García-Coronado et al., 2019, *International Orthopaedics*, PMID 30368550](https://pubmed.ncbi.nlm.nih.gov/30368550/)). The WOMAC pain and physical function subscores did not change significantly. The authors called collagen effective. Read more carefully, the benefit is real on some measures and absent on the two most people care about.
+Both of those trials were in athletes, not adults over 50. For osteoarthritis, a meta-analysis of placebo-controlled trials found collagen improved total scores on the WOMAC, a standard osteoarthritis questionnaire, along with stiffness and visual analogue scale scores ([García-Coronado et al., 2019, *International Orthopaedics*, PMID 30368550](https://pubmed.ncbi.nlm.nih.gov/30368550/)). The WOMAC pain and physical function subscores did not change significantly. The authors called collagen effective. Read more carefully, the benefit is real on some measures and absent on the two most people care about.
 
 None of these trials shows collagen rebuilding cartilage. For what loading does to cartilage, see [why cartilage wears down faster after 50](https://oakesfitness.com/blog/2026-10-14-why-cartilage-wears-down-faster-after-50).
 
@@ -54,7 +54,7 @@ The reason shows up in the amino acids. Per serving, the whey in that trial had 
 | Goal | What collagen showed | Better first move |
 |---|---|---|
 | Build or keep muscle | Beat a no-protein placebo with training; lost to whey head-to-head | Hit your daily protein from leucine-rich foods and lift 2 to 3 times a week |
-| Joint pain with activity | Small improvements in young athletes | Strengthen the muscles around the joint and adjust load |
+| Joint pain with activity | Small improvements in athletes, not older adults | Strengthen the muscles around the joint and adjust load |
 | Osteoarthritis symptoms | Better total score and stiffness; pain and function subscores unchanged | Train around the joint consistently (see [exercising with arthritis](https://oakesfitness.com/blog/2026-09-17-should-you-exercise-with-arthritis)) |
 | Tendon health | A blood marker doubled in 8 healthy men | Slow, progressive loading over months |
 
@@ -73,7 +73,7 @@ If a doctor has limited your protein intake for a medical reason, check with the
 - In 53 older men with sarcopenia, 15 g of collagen a day plus 12 weeks of resistance training produced more fat-free mass and strength than training with a placebo that contained no protein.
 - When collagen was tested against an equal dose of whey in women averaging 69, whey raised muscle protein synthesis more in both rested and trained legs, and collagen did not raise it significantly over six days.
 - Collagen is low in leucine and essential amino acids, which makes it a weak protein for building muscle compared with whey, eggs, dairy, or meat.
-- Joint pain trials in young athletes found collagen lowered activity-related pain slightly more than placebo, by roughly half a point on the pain scales in one 24-week trial.
+- Joint pain trials in athletes found collagen lowered activity-related pain slightly more than placebo, by roughly half a point on the pain scales in one 24-week trial.
 - An osteoarthritis meta-analysis found better total WOMAC and stiffness scores with collagen, but no significant change in the pain or function subscores.
 - Evidence that collagen helps build tendon or ligament comes mostly from a blood marker study in eight healthy men, so loading over months remains the proven driver.
 - After 50, getting about 30 to 40 g of protein per meal and lifting consistently matters more for muscle than adding collagen.
