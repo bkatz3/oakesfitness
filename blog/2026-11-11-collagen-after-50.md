@@ -56,14 +56,14 @@ The reason shows up in the amino acids. Per serving, the whey in that trial had 
 | Build or keep muscle | Beat a no-protein placebo with training; lost to whey head-to-head | Hit your daily protein from leucine-rich foods and lift 2 to 3 times a week |
 | Joint pain with activity | Small improvements in young athletes | Strengthen the muscles around the joint and adjust load |
 | Osteoarthritis symptoms | Better total score and stiffness; pain and function subscores unchanged | Train around the joint consistently (see [exercising with arthritis](https://oakesfitness.com/blog/2026-09-17-should-you-exercise-with-arthritis)) |
-| Tendon health | A blood marker doubled in 8 young men | Slow, progressive loading over months |
+| Tendon health | A blood marker doubled in 8 healthy men | Slow, progressive loading over months |
 
 ## How to Use Collagen If You Still Want to Try It
 
 1. **Count protein first.** Our [protein shake guide](https://oakesfitness.com/blog/2026-09-02-are-protein-shakes-worth-it-after-50) lands on about 30 to 40 g of protein per meal for most adults over 50. Get it from eggs, fish, poultry, dairy, meat, soy, or whey.
 2. **Do not count collagen toward that number for muscle.** Treat it as extra on top of your meals, not a swap for a serving of whey or chicken.
 3. **For joints, use what the trials used.** That was 5 to 10 g a day for 12 to 24 weeks. Give it about three months, then judge it by whether pain during activity changed.
-4. **If you take it around training,** the one protocol with data used 15 g of vitamin C-enriched gelatin an hour before activity. Treat that as reasonable but unproven.
+4. **If you take it around training,** the one protocol we found with data used 15 g of vitamin C-enriched gelatin an hour before activity. Treat that as reasonable but unproven.
 5. **Keep lifting.** In the sarcopenia trial, the placebo group still gained almost 3 kg of fat-free mass from training alone.
 
 If a doctor has limited your protein intake for a medical reason, check with them before adding any protein supplement.
@@ -75,7 +75,7 @@ If a doctor has limited your protein intake for a medical reason, check with the
 - Collagen is low in leucine and essential amino acids, which makes it a weak protein for building muscle compared with whey, eggs, dairy, or meat.
 - Joint pain trials in young athletes found collagen lowered activity-related pain slightly more than placebo, by roughly half a point on the pain scales in one 24-week trial.
 - An osteoarthritis meta-analysis found better total WOMAC and stiffness scores with collagen, but no significant change in the pain or function subscores.
-- Evidence that collagen helps build tendon or ligament comes mostly from a blood marker study in eight young men, so loading over months remains the proven driver.
+- Evidence that collagen helps build tendon or ligament comes mostly from a blood marker study in eight healthy men, so loading over months remains the proven driver.
 - After 50, getting about 30 to 40 g of protein per meal and lifting consistently matters more for muscle than adding collagen.
 
 If you want a plan that pairs your training with how much protein you actually eat, start with a [free 360° body audit](https://oakesfitness.com/contact.html) at Oakes Fitness.
