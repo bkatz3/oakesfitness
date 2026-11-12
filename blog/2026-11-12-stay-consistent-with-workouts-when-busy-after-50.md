@@ -17,7 +17,7 @@ Less than most people think, at least for building and holding strength.
 
 In a randomized trial of 46 healthy adults aged 65 to 79, researchers assigned people to high-intensity resistance training one, two, or three days per week, or to a control group, for 24 weeks ([Taaffe et al., 1999, *Journal of the American Geriatrics Society*, DOI 10.1111/j.1532-5415.1999.tb05201.x](https://doi.org/10.1111/j.1532-5415.1999.tb05201.x)). Each session was three sets of eight exercises for the major muscle groups, at 80 percent of each person's one-rep max for eight reps. Strength rose by about 37 percent in the once-a-week group, 42 percent in the twice-a-week group, and 40 percent in the three-times-a-week group, compared with about 4 percent in the controls. The three training groups did not differ at any point. Time to stand up from a chair five times also improved.
 
-That was a small, supervised study of newer lifters using heavy loads, so it does not mean one session a week is the ideal plan for everyone. It does mean one well-built session is far from wasted. For a busy week, that is the useful part.
+That was a small, supervised study using heavy loads, so it does not mean one session a week is the ideal plan for everyone. It does mean one well-built session is far from wasted. For a busy week, that is the useful part.
 
 ## What Happens to Your Strength if You Cut Back for a While?
 
@@ -54,8 +54,8 @@ Write it down now, while the week is calm.
 - **Pick four or five movements.** One squat or sit-to-stand pattern, one hinge such as a deadlift or hip bridge, one push, one pull, and a carry if there is time. If you are new to lifting, our guide on [how to start strength training after 50](https://oakesfitness.com/blog/2026-06-22-how-to-start-strength-training-after-50) lays out a first program you can shrink.
 - **Do two or three hard sets of each.** Use a weight you could lift 8 to 12 times and stop each set with about 2 good reps left. In the once-a-week trial, people did three sets of eight at a heavy load, so the minimum is still real work.
 - **Keep warm-ups short.** Five minutes of easy cardio and a light first set is enough to start. A full session like this fits in 30 to 40 minutes.
-- **Hold your weights, not your volume.** On a cut-back week, keep the load about where it was and drop sets. Keeping the intensity while cutting volume is the same logic as a planned [deload week](https://oakesfitness.com/blog/2026-08-23-what-is-a-deload-week-and-do-you-need-one-after-50), and it helps you return without starting over.
-- **Count your minutes, not your sessions.** Aim for at least about an hour of strength work a week across any number of sessions. Two 30-minute sessions count the same as one long one.
+- **Hold your weights, not your volume.** On a cut-back week, keep the load about where it was and drop sets, so you return without starting over. This is not the same as a planned [deload week](https://oakesfitness.com/blog/2026-08-23-what-is-a-deload-week-and-do-you-need-one-after-50), which lowers both volume and effort to clear fatigue. A busy week is short on time, not on recovery.
+- **Count your minutes, not your sessions.** Aim for at least about an hour of strength work a week across any number of sessions. Two 30-minute sessions still add up to the hour.
 - **Schedule the minimum first.** When you can see a hard week coming, put the one session on the calendar before the week fills up, at a time that is least likely to get moved.
 - **Cap the cut-back.** Plan to return to your normal week within about two to four weeks. Months on the crisis-week row are where muscle starts to slip, especially after 60.
 
