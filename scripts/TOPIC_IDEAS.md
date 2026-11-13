@@ -205,7 +205,7 @@
 
 ### Local / Commercial (Tier 1, Batch 2)
 
-69. 🟢 What to Look for in a Gym in Westford MA if You're Over 50
+69. ✅ Written (2026-11-13) What to Look for in a Gym in Westford MA if You're Over 50
 70. 🟢 Personal Training vs Big-Box Gyms After 50: What's the Real Difference? (Westford/Chelmsford)
 71. 🟢 How to Find a Personal Trainer in Acton MA if You're Over 50
 
