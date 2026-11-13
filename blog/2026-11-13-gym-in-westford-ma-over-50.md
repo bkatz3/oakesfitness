@@ -13,7 +13,7 @@ Most people over 50 shop for a gym in Westford the way they did at 30: closest l
 
 ## Why Does a Gym Need to Look Different After 50?
 
-Your body still responds to training after 50. It gives you less margin. Recovery takes longer, joints carry history, and the jump from one weight to the next feels bigger than it used to. A gym built for a 25-year-old's program can still work for you, but only if you already know exactly what to do and how to scale it.
+Your body still responds to training after 50, but it gives you less margin. Recovery takes longer, joints carry history, and the jump from one weight to the next feels bigger than it used to. A gym built for a 25-year-old's program can still work for you, but only if you already know exactly what to do and how to scale it.
 
 Most people starting or restarting after 50 do not have that yet, and that is where supervision earns its keep. A 2017 systematic review and meta-analysis in *Sports Medicine* pooled 11 randomized trials comparing supervised with unsupervised balance and resistance training in adults 65 and older without relevant disease ([Lacroix et al., 2017, *Sports Medicine*, PMID 28573401](https://pubmed.ncbi.nlm.nih.gov/28573401/)). Supervised training produced larger gains in muscle strength and power and in most balance measures. The authors noted the included studies were few and of moderate quality, and they recommended building supervised sessions into older adults' programs rather than relying on unsupervised training alone.
 
@@ -83,7 +83,7 @@ None of these means the people are bad at their jobs. They mean the gym is set u
 
 Keep the process short:
 
-1. Shortlist two or three places within a drive you will make three times a week. Westford, Chelmsford, Littleton, and Acton are realistic radii for most people here.
+1. Shortlist two or three places within a drive you will make three times a week. Westford, Chelmsford, Littleton, and Acton are all realistic for most people here.
 2. Visit at the time of day you would actually train, so you see the real crowd.
 3. Ask the coaching, equipment, and class-size questions above.
 4. Book a single session or consult before you pay for a block.
