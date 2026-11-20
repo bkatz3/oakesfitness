@@ -34,7 +34,7 @@ A few sources to work through:
 | Studio websites | Whether 50+ training is the focus or an afterthought | Copy is marketing; confirm it in a consult |
 | Big-box gym trainers | Hours and convenience | Generalist programming and staff turnover |
 
-If you are weighing a coached studio against a membership gym, [what to look for in a gym in Westford if you are over 50](https://oakesfitness.com/blog/2026-11-13-gym-in-westford-ma-over-50) walks through the tour questions. Those questions work in any town along Route 2.
+If you are weighing a coached studio against a membership gym, [what to look for in a gym in Westford if you are over 50](https://oakesfitness.com/blog/2026-11-13-gym-in-westford-ma-over-50) walks through the tour questions. Those questions work as well in Acton or any neighboring town.
 
 ## What Separates a Good Trainer From a Good Salesperson?
 
