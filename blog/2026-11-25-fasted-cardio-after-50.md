@@ -25,7 +25,7 @@ That trial was small, short, and in young women, so it isn't the last word for a
 
 Possibly blood sugar control, and that is a more interesting reason than fat loss.
 
-In a 6-week randomized trial, 30 men with overweight or obesity who did not exercise were assigned to a control group or to supervised cycling three times a week, either before or after a carbohydrate breakfast ([Edinburgh et al., 2020, *Journal of Clinical Endocrinology & Metabolism*, PMID 31628477](https://pubmed.ncbi.nlm.nih.gov/31628477/)). The group that rode before eating showed lower insulin after meals and improved oral glucose insulin sensitivity, while the group that ate first did not. Muscle biopsies showed the fasted riders used more of the fat stored inside their muscle fibers during exercise.
+In a 6-week randomized trial, 30 men with overweight or obesity who did not exercise were assigned to a control group or to supervised cycling three times a week, either before or after a carbohydrate breakfast ([Edinburgh et al., 2020, *Journal of Clinical Endocrinology & Metabolism*, PMID 31628477](https://pubmed.ncbi.nlm.nih.gov/31628477/)). The group that rode before eating showed lower insulin after meals and improved oral glucose insulin sensitivity, while the group that ate first did not. In a linked single-session experiment in 12 men, muscle biopsies showed that exercising before breakfast used more of the fat stored inside the muscle fibers.
 
 That is one trial, in men, over six weeks. It is a reason to take fasted sessions seriously as a metabolic tool, not proof that they beat fed training for everyone.
 
@@ -75,7 +75,7 @@ If you would rather eat first, eat first. The timing you'll repeat every week be
 ## Key Takeaways
 
 - Fasted cardio burns a higher share of fat during the session, according to a meta-analysis of 27 studies, but that is fuel use in the moment, not fat lost over time.
-- In a 4-week trial with a calorie-deficit diet, fasted and fed cardio produced the same weight and fat loss.
+- In a 4-week trial with a calorie-deficit diet, fasted and fed cardio produced similar weight and fat loss.
 - A 6-week trial in men with overweight or obesity found cycling before breakfast improved insulin sensitivity more than cycling after it, which makes fasted sessions a possible blood-sugar tool.
 - Eating beforehand improves performance in long aerobic sessions but makes little difference in short ones, so keep fasted cardio short and easy.
 - Older muscle needs about 0.40 g of protein per kilogram in a meal to respond fully, so the real cost of fasted cardio after 50 is a late or skipped first protein meal.
