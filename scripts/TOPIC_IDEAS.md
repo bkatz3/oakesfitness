@@ -201,7 +201,7 @@
 ### Habits & Mindset
 
 67. ✅ Written (2026-11-12) How to Stay Consistent With Workouts When Life Gets Busy After 50
-68. 🟢 What to Do When You Fall Off Your Workout Routine After 50
+68. ✅ Written (2026-11-26) What to Do When You Fall Off Your Workout Routine After 50
 
 ### Local / Commercial (Tier 1, Batch 2)
 
