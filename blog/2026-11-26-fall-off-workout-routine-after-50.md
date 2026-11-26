@@ -33,7 +33,7 @@ You don't need to. Any fresh start works, and the next one is days away.
 
 Researchers looked at entry records for 11,912 undergraduate members of a university gym over about 15 months ([Dai, Milkman, and Riis, 2014, *Management Science*, DOI 10.1287/mnsc.2014.1901](https://doi.org/10.1287/mnsc.2014.1901)). Compared with a typical day, the chance that a member visited the gym rose by about 33 percent at the start of a new week, 14 percent at the start of a new month, and 12 percent at the start of a new year. The authors called this the fresh start effect: dates that feel like a new chapter make people more likely to act on goals.
 
-These were college students, and the study tracked visits, not fitness. But it shows that New Year's Day is not special. A Monday carries the same pull, and there is one every week. Waiting six weeks for January trades a small push you have now for a slightly bigger one later, and the weeks in between are the ones that cost you.
+These were college students, and the study tracked visits, not fitness. But in that data, a new week gave a bigger bump than a new year did, and there is a new week every seven days. Waiting six weeks for January does not buy a better start, and the weeks in between are the ones that cost you.
 
 ## Why Do the Holidays Matter So Much?
 
@@ -69,7 +69,7 @@ If the break came from an illness, a surgery, an injury, or a new medication, ch
 
 - In a small study of 30 older men, 12 weeks off resistance training cost about 5 to 15 percent of strength and power, and less than eight weeks of retraining brought one-rep-max strength back to its post-training level.
 - In a 12-week habit study of 82 adults, missing one opportunity did not materially affect habit formation, but missing a week's worth made people less likely to continue.
-- Gym records from 11,912 university students showed the chance of a visit rose about 33 percent at the start of a new week, so the next Monday works as well as January 1.
+- Gym records from 11,912 university students showed the chance of a visit rose about 33 percent at the start of a new week, more than the bump at the start of a new year, so the next Monday is as good a restart date as January 1.
 - In 195 adults, holiday-season weight gain averaged about 0.37 kg and was not reversed by the following spring or summer, which is why a lapse that starts in late November is worth heading off now.
 - Restart a little lighter than you left: same weights after a week or two off, 10 to 20 percent lighter after a month, about half the volume after two to three months.
 - Book the first session within 48 hours, aim for two sessions in the first week, and don't miss twice in a row.
